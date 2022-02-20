@@ -1,0 +1,8 @@
+execute unless entity @a[scores={mg2=1..}] run function c2:mg2/reset
+tag @a[scores={mg2=1..},x=99,y=2,z=-75,dx=10,dy=5,dz=13] remove STGplayers
+tag @a[scores={mg2=1..},x=99,y=2,z=-75,dx=10,dy=5,dz=13,limit=1] add STGplayers
+execute as @a[team=!,scores={mg2=1..},tag=STGplayers,limit=1] at @s if score @e[name="M@K",limit=1] mg2 matches 0..1 run tellraw @a[scores={mg2=1..},x=99,y=2,z=-75,dx=10,dy=5,dz=13] ["",{"text":"A game of","color":"gold"},{"text":" Bed","color":"aqua","bold":true},{"text":"Wars","color":"red","bold":true},{"text":" has begun! ---> [","color":"gold"},{"text":"Click here","color":"green","bold":true,"hoverEvent":{"action":"show_text","value":"Click to spectate this minigame"},"clickEvent":{"action":"run_command","value":"/trigger interact"}},{"text":"]","color":"gold"},{"text":" to watch the game!","color":"yellow"}]
+execute as @a[team=!,scores={mg2=1..},tag=STGplayers,limit=1] at @s if score @e[name="M@K",limit=1] mg2 matches 0..1 run scoreboard players enable @s interact
+execute as @a[team=!,scores={mg2=1..},tag=STGplayers,limit=1] at @s if score @e[name="M@K",limit=1] mg2 matches 0..1 run tag @s add mk.07
+execute unless entity @a[scores={mg2=1..},tag=!STGplayers] run title @a[scores={mg2=1..},x=99,y=2,z=-75,dx=10,dy=5,dz=13] actionbar ["",{"text":"There aren't enough Players to begin","color":"red","bold":true}]
+execute as @a[scores={mg2=1..},x=99,y=2,z=-75,dx=10,dy=5,dz=13,team=,tag=!STGplayers] at @s run function c2:mg2/initiate

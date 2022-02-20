@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Expelled?!",
+            "color": "red",
+            "bold": true
+        },
+        "description": {
+            "text": "A Chabadu is discreet, but don't let it catch you in its path!",
+            "color":"yellow",
+			"bold": false
+        },
+        "icon": {
+            "item": "minecraft:debug_stick"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "spot_a_stalker": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 1500
+    },
+    "parent": "mk:extra"
+}

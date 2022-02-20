@@ -1,0 +1,2 @@
+execute if block 142 28 -293 gold_block run scoreboard players add @a[team=mg16-blue,scores={mg16=1..},tag=GWplayers] mg16.1 1
+execute if block 142 28 -419 gold_block run scoreboard players add @a[team=mg16-red,scores={mg16=1..},tag=GWplayers] mg16.1 1

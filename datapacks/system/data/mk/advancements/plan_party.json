@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Party Planner!",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Schedule a minigame party",
+            "color": "yellow",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "schedule_event": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mk:play_minigame"
+}

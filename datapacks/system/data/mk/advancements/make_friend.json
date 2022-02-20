@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": " Make a friend!",
+            "color": "green",
+            "bold": true
+        },
+        "description": {
+            "text": "Listen to the panda",
+            "color": "white",
+			"bold": false
+        },
+        "icon": {
+            "item": "minecraft:bamboo"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "stay_near_host": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mk:finish_tutorial"
+}

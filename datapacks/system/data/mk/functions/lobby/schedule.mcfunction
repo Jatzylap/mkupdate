@@ -1,0 +1,1 @@
+execute as @a[tag=P0ft_pre] at @s run function mk:lobby/pass

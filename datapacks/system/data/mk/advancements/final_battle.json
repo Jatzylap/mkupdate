@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Xopology accepted!",
+            "color": "light_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Beat the panda at its own game",
+			"color": "white",
+			"bold": false
+        },
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "xopoly_battle": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mk:unlock_all"
+}

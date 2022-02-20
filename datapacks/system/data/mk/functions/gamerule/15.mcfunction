@@ -1,0 +1,7 @@
+playsound ui.button.click master @s ~ ~ ~ 1
+execute if entity @s[tag=!0n] if data block -65 16 -49 {Text4:'{"bold":true,"color":"green","extra":[{"bold":false,"color":"white","text":" ~ "},{"bold":false,"color":"black","text":"FALSE"}],"text":"TRUE"}'} run tag @s add 0ff
+execute as @s[tag=0ff] at @s run data merge block -65 16 -49 {Text4:'{"bold":false,"color":"black","extra":[{"bold":false,"color":"white","text":" ~ "},{"bold":true,"color":"red","text":"FALSE"}],"text":"TRUE"}',Text3:'{"text":"","clickEvent":{"action":"run_command","value":"function mk:gamerule/15"}}',Text1:'{"text":"","clickEvent":{"action":"run_command","value":"tag @e[tag=d0] remove f"}}'}
+execute if entity @s[tag=!0ff] if data block -65 16 -49 {Text4:'{"bold":false,"color":"black","extra":[{"bold":false,"color":"white","text":" ~ "},{"bold":true,"color":"red","text":"FALSE"}],"text":"TRUE"}'} run tag @s add 0n
+execute as @s[tag=0n] at @s run data merge block -65 16 -49 {Text4:'{"bold":true,"color":"green","extra":[{"bold":false,"color":"white","text":" ~ "},{"bold":false,"color":"black","text":"FALSE"}],"text":"TRUE"}',Text3:'{"text":"","clickEvent":{"action":"run_command","value":"function mk:gamerule/15"}}',Text1:'{"text":"","clickEvent":{"action":"run_command","value":"tag @e[tag=d0] add f"}}'}
+tag @s remove 0ff
+tag @s remove 0n

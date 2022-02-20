@@ -1,0 +1,461 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 70,
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,s:1,display:{Name:\"{\\\"text\\\":\\\"Lucky Crystal Blade\\\",\\\"color\\\":\\\"aqua\\\",\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"Lucky! But Fragile...\\\",\\\"color\\\":\\\"yellow\\\",\\\"italic\\\":false}\"]},Enchantments:[{id:\"sharpness\",lvl:10},{id:\"smite\",lvl:10},{id:\"bane_of_arthropods\",lvl:10}],Damage:1561,AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:-0.1,Operation:1,UUID:[I;1,2,303235,540671],Slot:\"mainhand\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 150,
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,w:1,display:{Name:\"{\\\"text\\\":\\\"Une jolly Casquette\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":true,\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"Très Chic!\\\",\\\"color\\\":\\\"aqua\\\",\\\"italic\\\":false}\"]},Enchantments:[{id:\"projectile_protection\",lvl:5},{id:\"minecraft:respiration\",lvl:5},{id:\"minecraft:aqua_affinity\",lvl:5}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1,2,303235,540671],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1,2,303235,540671],Slot:\"head\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 130,
+                    "name": "minecraft:golden_leggings",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,w:1,display:{Name:\"{\\\"text\\\":\\\"Lucky Leggings\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true,\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"Quite fragile yet so lucky!\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\"]},Damage:100,Enchantments:[{id:\"projectile_protection\",lvl:5},{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:mending\",lvl:1}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1,2,303235,540671],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:2,Operation:0,UUID:[I;1,2,303235,540671],Slot:\"legs\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,w:1,display:{Name:\"{\\\"text\\\":\\\"Lucky Chestplate\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"The Luckiest Chestplate you can get!\\\",\\\"color\\\":\\\"yellow\\\",\\\"italic\\\":false}\"]},Enchantments:[{id:\"protection\",lvl:9},{id:\"fire_protection\",lvl:9},{id:\"blast_protection\",lvl:9},{id:\"projectile_protection\",lvl:9}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;1,2,303235,540671],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:2,Operation:0,UUID:[I;1,2,303235,540671],Slot:\"chest\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 200,
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Name:\"{\\\"text\\\":\\\"The Teacher's Cane\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false,\\\"bold\\\":true}\",Lore:[\"{\\\"text\\\":\\\"Lucky? Used for Punishing naughty Players\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\"]},Enchantments:[{id:\"knockback\",lvl:10}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 140,
+                    "name": "minecraft:golden_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,w:1,display:{Name:\"{\\\"text\\\":\\\"Lucky Pick\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"To Pick your way Out? ... Lucky!\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false},{\\\"text\\\":\\\"Luck V\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]},HideFlags:12,CanDestroy:[\"iron_bars\",\"dirt\",\"sponge\",\"purpur_pillar\",\"iron_block\",\"emerald_block\"],Enchantments:[{id:\"efficiency\",lvl:5},{id:\"luck_of_the_sea\",lvl:5}],AttributeModifiers:[{AttributeName:generic.attack_speed,Name:generic.attack_speed,Amount:0.5,Operation:1,UUID:[I;1,2,303235,540671],Slot:\"mainhand\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 140,
+                    "name": "minecraft:iron_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,c:1,display:{Name:\"{\\\"text\\\":\\\"Speedy Boots\\\",\\\"color\\\":\\\"aqua\\\",\\\"bold\\\":true,\\\"italic\\\":false}\"},Unbreakable:1b,Enchantments:[{id:\"depth_strider\",lvl:6},{id:\"minecraft:fire_protection\",lvl:4},{id:\"minecraft:feather_falling\",lvl:6},{id:\"minecraft:blast_protection\",lvl:4}],AttributeModifiers:[{AttributeName:generic.movement_speed,Name:generic.movement_speed,Amount:0.8,Operation:1,UUID:[I;1,2,303235,540671],Slot:\"feet\"},{AttributeName:generic.armor,Name:generic.armor,Amount:3,Operation:0,UUID:[I;1,2,303235,540671],Slot:\"feet\"}]}"
+                        }
+                    ]
+                },
+	            {
+                    "type": "item",
+                    "weight": 140,
+                    "name": "minecraft:golden_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,w:1,luck:1,display:{Name:\"{\\\"text\\\":\\\"Gilded Boots\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true,\\\"italic\\\":false}\"},Unbreakable:1b,Enchantments:[{id:\"depth_strider\",lvl:10},{id:\"minecraft:fire_protection\",lvl:5},{id:\"minecraft:feather_falling\",lvl:6},{id:\"minecraft:blast_protection\",lvl:4}],AttributeModifiers:[{AttributeName:generic.movement_speed,Name:generic.movement_speed,Amount:0.2,Operation:1,UUID:[I;1,2,303235,540671],Slot:\"feet\"},{AttributeName:generic.armor,Name:generic.armor,Amount:2,Operation:0,UUID:[I;1,2,303235,540671],Slot:\"feet\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 150,
+                    "name": "minecraft:netherite_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,f:1,display:{Name:\"{\\\"text\\\":\\\"Soul Boots\\\",\\\"color\\\":\\\"gray\\\",\\\"bold\\\":true,\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"For fierce walking!\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true,\\\"italic\\\":false}\"]},Unbreakable:1b,Enchantments:[{id:\"soul_speed\",lvl:5},{id:\"minecraft:frost_walker\",lvl:3},{id:\"minecraft:feather_falling\",lvl:2},{id:\"minecraft:depth_strider\",lvl:4}],AttributeModifiers:[{AttributeName:generic.armor,Name:generic.armor,Amount:3,Operation:0,UUID:[I;1,2,303235,540671],Slot:\"feet\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 350,
+                    "name": "minecraft:dirt",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,s:1,display:{Name:\"{\\\"text\\\":\\\"Shiny Dirt\\\",\\\"bold\\\":true,\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"Only4Noobs\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"]},HideFlags:1,CanPlaceOn:[\"iron_bars\",\"dirt\"],Enchantments:[{id:12,lvl:1}]}"
+                        },
+						{"function":"set_count",
+						    "count":{
+							"min":5,
+							"max":64
+							        }
+						}
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 350,
+                    "name": "minecraft:sponge",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Name:\"{\\\"text\\\":\\\"Guardian Guts\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"Thorny VI\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]},HideFlags:1,CanPlaceOn:[\"iron_bars\",\"sponge\"],Enchantments:[{id:\"thorns\",lvl:6},{id:\"knockback\",lvl:3}]}"
+                        },
+                        {"function":"set_count",
+                            "count":{
+                            "min":10,
+							"max":10
+                                    }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 300,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,thick:1,Potion:thick,display:{Name:\"{\\\"text\\\":\\\"Rate your THICKNESS (up to 3)\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"Amount determines your THICKNESS\\\",\\\"color\\\":\\\"reset\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"1 - Occasionally THICK\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"2 - Most likely THICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"3 - Really THICK\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 300,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,thick:2,Potion:thick,display:{Name:\"{\\\"text\\\":\\\"Rate your THICKNESS (up to 3)\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"Amount determines your THICKNESS\\\",\\\"color\\\":\\\"reset\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"1 - Occasionally THICK\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"2 - Most likely THICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"3 - Really THICK\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 300,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,thick:3,Potion:thick,display:{Name:\"{\\\"text\\\":\\\"Rate your THICKNESS (up to 3)\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"Amount determines your THICKNESS\\\",\\\"color\\\":\\\"reset\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"1 - Occasionally THICK\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"2 - Most likely THICK\\\",\\\"color\\\":\\\"yellow\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"3 - Really THICK\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 250,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:anvil_trap\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 90,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:blank\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 150,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:water_trap\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 150,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:lava_trap\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:witch\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 180,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:bedrock\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 200,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:block\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 350,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:splash\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 250,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:bob\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:slime_stack\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 350,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:explosion\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:mini_horde\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 180,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:bees\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 90,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:golem\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 110,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:battle\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 90,
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"unlucky:bunnies\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 150,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"lucky:trader\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 250,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"lucky:cats\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 250,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"lucky:bunnies\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 190,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"lucky:block_stack\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 250,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"lucky:block_stack2\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 250,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"lucky:mob_stack\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 200,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"lucky:flowers\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 200,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"lucky:redstone\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 250,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"lucky:block\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 85,
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{LC:1b,display:{Lore:[\"{\\\"text\\\":\\\"lucky:dropper\\\",\\\"color\\\":\\\"dark_gray\\\"}\"]}}"
+                        }
+					]
+                }
+            ]
+        }
+    ]
+}

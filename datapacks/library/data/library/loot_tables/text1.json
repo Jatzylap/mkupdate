@@ -1,0 +1,324 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:1}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:2}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:3}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:4}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:5}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:6}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:7}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:8}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:9}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:10}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:11}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:12}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:13}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:14}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:15}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:16}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:17}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:18}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:19}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:20}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:21}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:22}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:23}"
+                        }
+					]
+                },
+            
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:24}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:25}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:26}"
+                        }
+					]
+				},
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,q:27}"
+                        }
+					]
+                }
+			]
+        }
+    ]
+}

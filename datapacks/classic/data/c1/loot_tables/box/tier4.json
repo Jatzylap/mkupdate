@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 9,
+                    "name": "gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Enchanted\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false,\\\"extra\\\":[{\\\"text\\\":\\\" Ingot\\\",\\\"color\\\":\\\"yellow\\\"}]}\"},Enchantments:[{id:12,lvl:1}]}"
+                        },
+                        {
+                            "function": "set_count",
+                                "count":{
+                            "min": 21,
+                            "max": 32
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

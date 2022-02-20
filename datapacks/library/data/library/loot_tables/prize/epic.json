@@ -1,0 +1,185 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "phantom_membrane",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 5
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "crying_obsidian",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 5
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "magma_cream",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "fire_charge",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "golden_horse_armor",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "scute",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:luck}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:water,CustomPotionEffects:[{Id:31,Amplifier:1,Duration:600}],display:{Name:\"{\\\"text\\\":\\\"Splash Potion of the Bad Omen\\\",\\\"italic\\\":false}\"}}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{StoredEnchantments:[{id:sharpness,lvl:2},{id:knockback,lvl:1},{id:fire_aspect,lvl:1},{id:sweeping_edge,lvl:1}]}"
+                        }
+					]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "creeper_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Creeper Spawner\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"},EntityTag:{Tags:[spawner]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "blaze_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Blaze Spawner\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"},EntityTag:{Tags:[spawner]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "wither_skeleton_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Wither Skeleton Spawner\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"},EntityTag:{Tags:[spawner]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "zombified_piglin_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Zombified Piglin Spawner\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":false}\"},EntityTag:{Tags:[spawner]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "trident",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:loyalty,lvl:1}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "glow_squid_spawn_egg"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "axolotl_spawn_egg"
+                }
+			]
+        }
+    ]
+}

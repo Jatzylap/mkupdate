@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Phew!",
+            "color": "red",
+            "bold": true
+        },
+        "description": {
+            "text": "/trigger lobby to the rescue!",
+			"bold": false
+        },
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "trigger_lobby": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 1500
+    },
+    "parent": "mk:extra"
+}

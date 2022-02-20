@@ -1,0 +1,207 @@
+{
+    "pools": [
+    {
+		"rolls": {
+		  "min":5,
+		  "max":10
+		},
+		"entries":[
+                {
+                    "type": "item",
+                    "weight": 150,
+                    "name": "minecraft:redstone",
+                    "functions": [
+                        {"function":"set_count",
+                            "count":{
+                            "min":5,
+							"max":10
+                                    }},
+						{"function":"set_nbt",
+						"tag": "{LC:1b}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:repeater",
+                    "functions": [
+                        {"function":"set_count",
+                            "count":{
+                            "min":1,
+							"max":5
+                                    }},
+						{"function":"set_nbt",
+						"tag": "{LC:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 50,
+                    "name": "minecraft:redstone_block",
+                    "functions": [
+                        {"function":"set_count",
+                            "count":{
+                            "min":0,
+							"max":2
+                                    }},
+						{"function":"set_nbt",
+						"tag": "{LC:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:comparator",
+                    "functions": [
+                        {"function":"set_count",
+                            "count":{
+                            "min":0,
+							"max":3
+                                    }},
+						{"function":"set_nbt",
+						"tag": "{LC:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 80,
+                    "name": "minecraft:redstone_torch",
+                    "functions": [
+                        {"function":"set_count",
+                            "count":{
+                            "min":0,
+							"max":3
+                                    }},
+						{"function":"set_nbt",
+						"tag": "{LC:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 90,
+                    "name": "minecraft:piston",
+                    "functions": [
+                        {"function":"set_count",
+                            "count":{
+                            "min":0,
+							"max":3
+                                    }},
+						{"function":"set_nbt",
+						"tag": "{LC:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 90,
+                    "name": "minecraft:sticky_piston",
+                    "functions": [
+                        {"function":"set_count",
+                            "count":{
+                            "min":0,
+							"max":2
+                                    }},
+						{"function":"set_nbt",
+						"tag": "{LC:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 150,
+                    "name": "minecraft:tripwire_hook",
+                    "functions": [
+                        {"function":"set_count",
+                            "count":{
+                            "min":5,
+							"max":8
+                                    }},
+						{"function":"set_nbt",
+						"tag": "{LC:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 80,
+                    "name": "minecraft:observer",
+                    "functions": [
+                        {"function":"set_count",
+                            "count":{
+                            "min":1,
+							"max":3
+                                    }},
+						{"function":"set_nbt",
+						"tag": "{LC:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:hopper",
+                    "functions": [
+                        {"function":"set_count",
+                            "count":{
+                            "min":3,
+							"max":5
+                                    }},
+						{"function":"set_nbt",
+						"tag": "{LC:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 80,
+                    "name": "minecraft:dispenser",
+                    "functions": [
+                        {"function":"set_count",
+                            "count":{
+                            "min":1,
+							"max":3
+                                    }},
+						{"function":"set_nbt",
+						"tag": "{LC:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 90,
+                    "name": "minecraft:dropper",
+                    "functions": [
+                        {"function":"set_count",
+                            "count":{
+                            "min":1,
+							"max":3
+                                    }},
+						{"function":"set_nbt",
+						"tag": "{LC:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:stone_pressure_plate",
+                    "functions": [
+                        {"function":"set_count",
+                            "count":{
+                            "min":5,
+							"max":8
+                                    }},
+						{"function":"set_nbt",
+						"tag": "{LC:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

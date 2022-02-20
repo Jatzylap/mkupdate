@@ -1,0 +1,16 @@
+playsound ui.button.click master @s ~ ~ ~ 1
+execute if entity @s[tag=!0n16,tag=!0n32,tag=!0n64,tag=!0n65536] if block -106 27 76 dark_oak_wall_sign{Text4:'{"bold":true,"color":"light_purple","text":"<< 65536 >>"}'} run tag @s add 0n8
+execute as @s[tag=0n8] at @s run data merge block -106 27 76 {Text4:'{"bold":true,"color":"light_purple","text":"<< 8 >>"}',Text3:'{"color":"aqua","text":"Command length","clickEvent":{"action":"run_command","value":"function mk:gamerule/4"}}',Text2:'{"color":"aqua","text":"Maximum Chain","clickEvent":{"action":"run_command","value":"gamerule maxchainCommandLength 16"}}',Text1:'{"text":"GAMERULE","color":"green","bold":true}'}
+execute if entity @s[tag=!0n8,tag=!0n32,tag=!0n64,tag=!0n65536] if block -106 27 76 dark_oak_wall_sign{Text4:'{"bold":true,"color":"light_purple","text":"<< 8 >>"}'} run tag @s add 0n16
+execute as @s[tag=0n16] at @s run data merge block -106 27 76 {Text4:'{"bold":true,"color":"light_purple","text":"<< 16 >>"}',Text3:'{"color":"aqua","text":"Command length","clickEvent":{"action":"run_command","value":"function mk:gamerule/4"}}',Text2:'{"color":"aqua","text":"Maximum Chain","clickEvent":{"action":"run_command","value":"gamerule maxchainCommandLength 32"}}',Text1:'{"text":"GAMERULE","color":"green","bold":true}'}
+execute if entity @s[tag=!0n8,tag=!0n16,tag=!0n64,tag=!0n65536] if block -106 27 76 dark_oak_wall_sign{Text4:'{"bold":true,"color":"light_purple","text":"<< 16 >>"}'} run tag @s add 0n32
+execute as @s[tag=0n32] at @s run data merge block -106 27 76 {Text4:'{"bold":true,"color":"light_purple","text":"<< 32 >>"}',Text3:'{"color":"aqua","text":"Command length","clickEvent":{"action":"run_command","value":"function mk:gamerule/4"}}',Text2:'{"color":"aqua","text":"Maximum Chain","clickEvent":{"action":"run_command","value":"gamerule maxchainCommandLength 64"}}',Text1:'{"text":"GAMERULE","color":"green","bold":true}'}
+execute if entity @s[tag=!0n8,tag=!0n16,tag=!0n32,tag=!0n65536] if block -106 27 76 dark_oak_wall_sign{Text4:'{"bold":true,"color":"light_purple","text":"<< 32 >>"}'} run tag @s add 0n64
+execute as @s[tag=0n64] at @s run data merge block -106 27 76 {Text4:'{"bold":true,"color":"light_purple","text":"<< 64 >>"}',Text3:'{"color":"aqua","text":"Command length","clickEvent":{"action":"run_command","value":"function mk:gamerule/4"}}',Text2:'{"color":"aqua","text":"Maximum Chain","clickEvent":{"action":"run_command","value":"gamerule maxchainCommandLength 65536"}}',Text1:'{"text":"GAMERULE","color":"green","bold":true}'}
+execute if entity @s[tag=!0n8,tag=!0n16,tag=!0n32,tag=!0n64] if block -106 27 76 dark_oak_wall_sign{Text4:'{"bold":true,"color":"light_purple","text":"<< 64 >>"}'} run tag @s add 0n65536
+execute as @s[tag=0n65536] at @s run data merge block -106 27 76 {Text4:'{"bold":true,"color":"light_purple","text":"<< 65536 >>"}',Text3:'{"color":"aqua","text":"Command length","clickEvent":{"action":"run_command","value":"function mk:gamerule/4"}}',Text2:'{"color":"aqua","text":"Maximum Chain","clickEvent":{"action":"run_command","value":"gamerule maxchainCommandLength 8"}}',Text1:'{"text":"GAMERULE","color":"green","bold":true}'}
+tag @s remove 0n65536
+tag @s remove 0n64
+tag @s remove 0n32
+tag @s remove 0n16
+tag @s remove 0n8

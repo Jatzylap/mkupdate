@@ -1,0 +1,56 @@
+fill -309 2 69 -309 2 59 cobblestone
+fill -305 2 53 -294 2 53 cobblestone
+fill -289 2 58 -289 2 69 cobblestone
+fill -291 2 73 -304 2 73 cobblestone
+fill -308 0 54 -290 1 54 bedrock
+fill -290 0 54 -290 1 72 bedrock
+fill -290 0 72 -308 1 72 bedrock
+fill -308 0 72 -308 1 54 bedrock
+fill -307 0 59 -307 1 55 bedrock
+fill -306 0 57 -306 1 55 bedrock
+fill -305 0 56 -305 1 55 bedrock
+fill -304 0 55 -303 1 55 bedrock
+fill -291 0 59 -291 1 55 bedrock
+fill -292 0 57 -292 1 55 bedrock
+fill -293 0 56 -293 1 55 bedrock
+fill -292 0 69 -292 1 71 bedrock
+fill -294 0 55 -295 1 55 bedrock
+fill -291 0 71 -291 1 67 bedrock
+fill -293 0 70 -293 1 71 bedrock
+fill -294 0 71 -295 1 71 bedrock
+fill -307 0 71 -307 1 67 bedrock
+fill -306 0 69 -306 1 71 bedrock
+fill -305 0 71 -305 1 70 bedrock
+fill -304 0 71 -303 1 71 bedrock
+fill -308 2 54 -290 12 54 barrier
+fill -290 12 54 -290 2 72 barrier
+fill -290 12 72 -308 2 72 barrier
+fill -308 2 72 -308 12 54 barrier
+fill -291 2 67 -291 11 68 barrier
+fill -292 2 69 -292 11 69 barrier
+fill -293 2 70 -293 11 70 barrier
+fill -294 2 71 -295 11 71 barrier
+fill -303 2 71 -304 11 71 barrier
+fill -305 2 70 -305 11 70 barrier
+fill -306 2 69 -306 11 69 barrier
+fill -307 2 68 -307 11 67 barrier
+fill -307 2 59 -307 11 58 barrier
+fill -306 2 57 -306 11 57 barrier
+fill -305 2 56 -305 11 56 barrier
+fill -304 2 55 -303 11 55 barrier
+fill -295 2 55 -294 11 55 barrier
+fill -293 2 56 -293 11 56 barrier
+fill -292 2 57 -292 11 57 barrier
+fill -291 2 58 -291 11 59 barrier
+fill -291 2 57 -292 11 55 barrier
+fill -293 2 55 -293 11 55 barrier
+fill -305 2 55 -307 11 56 barrier
+fill -307 2 57 -307 11 57 barrier
+fill -305 2 71 -307 11 70 barrier
+fill -307 2 69 -307 11 69 barrier
+fill -291 2 69 -292 11 71 barrier
+fill -293 2 71 -293 11 71 barrier
+fill -308 3 53 -290 3 53 mycelium keep
+fill -289 3 54 -289 3 72 mycelium keep
+fill -290 3 73 -308 3 73 mycelium keep
+fill -309 3 72 -309 3 54 mycelium keep
