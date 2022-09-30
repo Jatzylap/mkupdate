@@ -1,1 +1,0 @@
-{"type":"minecraft:block","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:budding_amethyst"}],"conditions":[{"condition":"minecraft:alternative","terms":[{"condition":"minecraft:match_tool","predicate":{"item":"minecraft:shears"}},{"condition":"minecraft:match_tool","predicate":{"nbt":"{0:1}"}}]}]}]}

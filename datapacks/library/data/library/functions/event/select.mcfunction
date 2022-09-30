@@ -1,4 +1,0 @@
-playsound ui.button.click master @s ~ ~ ~ 1
-execute if data block -327 4 -4 {Text3:'{"bold":true,"color":"yellow","text":"Immediately"}'} run tellraw @s[tag=!T0] ["",{"text":"No scheduled event targeted, try pressing the ","color":"red"},{"text":"Schedule button","color":"yellow"},{"text":" (again) unless you have already scheduled that event...","color":"red"}]
-execute unless data block -327 4 -4 {Text3:'{"bold":true,"color":"yellow","text":"Immediately"}'} run tellraw @s[tag=!T0] ["",{"text":"No scheduled event targeted, try pressing the ","color":"red"},{"text":"Schedule button","color":"yellow"},{"text":" (again) unless you have already scheduled that event...","color":"red"}]
-execute at @s[tag=T0] run function library:play-random

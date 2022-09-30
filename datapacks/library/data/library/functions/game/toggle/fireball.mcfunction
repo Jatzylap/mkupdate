@@ -1,4 +1,0 @@
-playsound entity.item_frame.rotate_item master @s ~ ~ ~ 1
-execute if data block -291 15 54 {Text3:'{"bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/function library:game/toggle/fireball"},"extra":[{"bold":false,"color":"black","text":" ❌"}],"text":"✔ "}'} run tag @e[tag=3vent,tag=focus,tag=target] remove mgc_b
-execute as @s[tag=0n] at @s run tag @e[tag=3vent,tag=focus] add mgc_b
-execute if data block -291 15 54 {Text3:'{"bold":false,"color":"black","clickEvent":{"action":"run_command","value":"/function library:game/toggle/fireball"},"extra":[{"bold":true,"color":"red","text":" ❌"}],"text":"✔ "}'} run tag @e[tag=3vent,tag=focus,tag=target] add mgc_b
