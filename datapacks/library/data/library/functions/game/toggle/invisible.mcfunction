@@ -1,0 +1,4 @@
+playsound entity.item_frame.rotate_item master @s ~ ~ ~ 1
+execute if data block -291 14 54 {Text3:'{"bold":true,"color":"green","clickEvent":{"action":"run_command","value":"/function library:game/toggle/invisible"},"extra":[{"bold":false,"color":"black","text":" ❌"}],"text":"✔ "}'} run tag @e[tag=3vent,tag=focus,tag=target] remove mgc_i
+execute as @s[tag=0n] at @s run tag @e[tag=3vent,tag=focus] add mgc_i
+execute if data block -291 14 54 {Text3:'{"bold":false,"color":"black","clickEvent":{"action":"run_command","value":"/function library:game/toggle/invisible"},"extra":[{"bold":true,"color":"red","text":" ❌"}],"text":"✔ "}'} run tag @e[tag=3vent,tag=focus,tag=target] add mgc_i

@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "entity": "this",
+              "tag": "{gui:1,HideFlags:61}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {"text":"","extra":[{"text":"TNT","color":"red","bold":true},{"text":" Run","color":"yellow","bold":true}],"italic":false}
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text":"","extra":[{"score":{"name":"@e[limit=1,tag=PG,nbt={Small:1b},tag=mg7]","objective":"pg1.2"},"color":"gold"},{"text":" voted"}],"color":"green","italic":false}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

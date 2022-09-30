@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "pack_format": 1,
+    "description": "MK_system-settings"
+  },
+  "filter": {
+    "block": [
+        {
+            "namespace": "minecraft",
+            "path": "advancements/.*"
+        }
+     ]
+  }
+}

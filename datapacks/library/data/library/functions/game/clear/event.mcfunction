@@ -1,0 +1,15 @@
+execute if data block -307 15 72 {Text2:'{"bold":true,"color":"aqua","text":"ON"}'} unless entity @e[tag=3vent,tag=focus] run tellraw @s ["",{"text":"No available targets to delete..","color":"red"}]
+execute if entity @e[tag=3vent,tag=focus] run loot replace block -304 5 45 container.0 loot library:game/10
+execute if entity @e[tag=3vent,tag=focus] if data block -304 5 45 Items[{Slot:0b,Count:1b,id:"minecraft:stick"}] run tellraw @a[tag=ed1t] ["",{"text":"*"},{"text":"Poof!","bold":true},{"text":"*","bold":false},{"text":" An event just received an early retirement"}]
+execute if entity @e[tag=3vent,tag=focus] if data block -304 5 45 Items[{Slot:0b,Count:2b,id:"minecraft:stick"}] run tellraw @a[tag=ed1t] ["",{"text":"*"},{"text":"Poof!","bold":true},{"text":"*","bold":false},{"text":" An event vanished into thin air"}]
+execute if entity @e[tag=3vent,tag=focus] if data block -304 5 45 Items[{Slot:0b,Count:3b,id:"minecraft:stick"}] run tellraw @a[tag=ed1t] ["",{"text":"*"},{"text":"Poof!","bold":true},{"text":"*","bold":false},{"text":" An event was wiped out of existence"}]
+execute if entity @e[tag=3vent,tag=focus] if data block -304 5 45 Items[{Slot:0b,Count:4b,id:"minecraft:stick"}] run tellraw @a[tag=ed1t] ["",{"text":"*"},{"text":"Poof!","bold":true},{"text":"*","bold":false},{"text":" An event was kicked for being afk"}]
+execute if entity @e[tag=3vent,tag=focus] if data block -304 5 45 Items[{Slot:0b,Count:5b,id:"minecraft:stick"}] run tellraw @a[tag=ed1t] ["",{"text":"*"},{"text":"Poof!","bold":true},{"text":"*","bold":false},{"text":" An event was banned for being uneventful"}]
+execute if entity @e[tag=3vent,tag=focus] if data block -304 5 45 Items[{Slot:0b,Count:6b,id:"minecraft:stick"}] run tellraw @a[tag=ed1t] ["",{"text":"*"},{"text":"Poof!","bold":true},{"text":"*","bold":false},{"text":" An event felt out of place"}]
+execute if entity @e[tag=3vent,tag=focus] if data block -304 5 45 Items[{Slot:0b,Count:7b,id:"minecraft:stick"}] run tellraw @a[tag=ed1t] ["",{"text":"*"},{"text":"Poof!","bold":true},{"text":"*","bold":false},{"text":" An event was kicked for being annoying"}]
+execute if entity @e[tag=3vent,tag=focus] if data block -304 5 45 Items[{Slot:0b,Count:8b,id:"minecraft:stick"}] run tellraw @a[tag=ed1t] ["",{"text":"*"},{"text":"Poof!","bold":true},{"text":"*","bold":false},{"text":" An event died a quick death"}]
+execute if entity @e[tag=3vent,tag=focus] if data block -304 5 45 Items[{Slot:0b,Count:9b,id:"minecraft:stick"}] run tellraw @a[tag=ed1t] ["",{"text":"*"},{"text":"Poof!","bold":true},{"text":"*","bold":false},{"text":" An event was invited to the space vacuum"}]
+execute if entity @e[tag=3vent,tag=focus] if data block -304 5 45 Items[{Slot:0b,Count:10b,id:"minecraft:stick"}] run tellraw @a[tag=ed1t] ["",{"text":"*"},{"text":"Poof!","bold":true},{"text":"*","bold":false},{"text":" An event betrayed its master"}]
+execute if entity @e[tag=3vent,tag=focus] run kill @e[tag=it3m]
+data merge entity @e[limit=1,tag=focus] {Tags:[]}
+data remove block -304 5 45 Items[{Slot:0b}]

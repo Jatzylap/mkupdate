@@ -1,0 +1,1 @@
+execute as @e[tag=3vent,type=armor_stand,tag=!gl0w,x=-307,y=-85,z=55,dx=16,dy=69,dz=16] at @s run tp ~ ~50 ~

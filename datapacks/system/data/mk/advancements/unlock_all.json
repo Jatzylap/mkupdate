@@ -1,0 +1,62 @@
+{
+    "display": {
+        "title": {
+            "text": "The Believer",
+            "color":"green",
+            "bold": true
+        },
+        "description": {
+            "text": "Win at every solo-compatible minigame, then go down to the Archives",
+			"color":"yellow"
+        },
+        "icon": {
+            "item": "minecraft:beacon"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "mg1": {
+            "trigger": "minecraft:impossible"
+        },
+		"mg4": {
+			"trigger": "minecraft:impossible"
+		},
+		"mg12": {
+			"trigger": "minecraft:impossible"
+		},
+		"mg13": {
+			"trigger": "minecraft:impossible"
+		},
+		"mg14": {
+			"trigger": "minecraft:impossible"
+		},
+		"mg15": {
+			"trigger": "minecraft:impossible"
+		},
+		"mg17": {
+			"trigger": "minecraft:impossible"
+		},
+		"mg18": {
+			"trigger": "minecraft:impossible"
+		},
+		"mg19": {
+			"trigger": "minecraft:impossible"
+		},
+		"mg20": {
+			"trigger": "minecraft:impossible"
+		},
+		"mg21": {
+			"trigger": "minecraft:impossible"
+		},
+		"mg22": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "mk:play_minigame2"
+}

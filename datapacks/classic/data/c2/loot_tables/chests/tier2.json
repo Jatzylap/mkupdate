@@ -1,0 +1,422 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:cooked_beef",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 12,
+                                "max": 25
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+                    ]
+
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:iron_axe",
+					"functions":[
+                        {
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+                    ]
+                }
+			]
+		},
+        {
+            "rolls": {
+                "min": 2,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:chainmail_chestplate",
+					"functions":[
+                        {
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:chainmail_leggings",
+					"functions":[
+                        {
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:iron_chestplate",
+					"functions":[
+                        {
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:iron_leggings",
+					"functions":[
+                        {
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:iron_boots",
+					"functions":[
+                        {
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:iron_helmet",
+					"functions":[
+                        {
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:chainmail_chestplate",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 2,
+                                "max": 10
+                            }
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:chainmail_leggings",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+                                "min": 5,
+                                "max": 15
+                            }
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+										"min":1,
+										"max":3
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+                    ]
+				},
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": {
+										"min":1,
+										"max":3
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": 
+              "{Potion:regeneration,SW:1b}"
+                        }
+                    ]
+ 
+                },
+                {
+                    "type": "item",
+                    "weight": 7,
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 15
+                            }
+                        },
+           {             "function":"set_nbt",                  "tag":"{              SW:1b,Enchantments:[{id:flame,lvl:1}]               }"               }                    ]
+                }
+			]
+		},
+		{
+			"rolls":{
+				"min":1,
+				"max":2
+					},
+			"entries":[
+				{
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 15
+                            }
+                        },
+           {             "function":"set_nbt",                  "tag":"{Fireworks:{Flight:3b,Explosions:[{Type:1,Colors:[I;12801229],FadeColors:[I;12801229]}]}}"               }                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b,Potion:fire_resistance}"
+                           }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:ender_pearl",
+					"functions":[
+					    {
+						   "function": "set_count",
+						   "count":{
+						   "min":0,
+						   "max":2 }
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+					]
+				},
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:lava_bucket",
+                  "functions":[
+				      {"function":"set_count",
+                       "count":{
+					   "min":0,
+					   "max":2
+					           }
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+					]
+				},
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:stone",
+                  "functions":[
+				     {
+				      "function":"set_count",
+                      "count":{
+					  "min":0,
+					  "max":10
+					          }
+					 },
+					{
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+					]
+				},
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:stone_pickaxe",
+					"functions":[
+                        {
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+                    ]
+	 },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:tnt",
+                    "functions":[
+					   {
+						"function":"set_count",
+						"count":{
+						"min":5,
+						"max":10
+						        }
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+					]
+				},
+				{
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:golden_apple"
+,          			"functions":[
+						{
+						"function":"set_count",
+						"count":{
+						"min":1,
+						"max":3
+								}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        }
+					]
+				},
+				{"type": "item",
+				"weight":1,
+				"name":"minecraft:diamond_sword",
+				"functions":[
+						{
+						"function":"set_count",
+						"count":{
+						"min":0,
+						"max":1
+								}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{
+                              SW:1b }"
+                        },
+						{"function":"enchant_with_levels",
+						"levels":{
+						"min":3,
+						"max":5
+								 }
+						}
+					]
+				}
+			]
+        }
+    ]
+}

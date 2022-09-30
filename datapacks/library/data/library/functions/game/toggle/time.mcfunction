@@ -1,0 +1,1 @@
+execute as @e[tag=3vent,tag=end] at @s run scoreboard players add @s mgc-1.3 10

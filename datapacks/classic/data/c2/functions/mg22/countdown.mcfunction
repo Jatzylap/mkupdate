@@ -1,0 +1,14 @@
+#Wave counter
+scoreboard players add @e[name="M@K",limit=1] mg22.3 1
+execute if score @e[limit=1,name="M@K"] mg22.3 matches 1 run tellraw @a[scores={mg22=1..}] ["",{"text":"\nGame commencing in ","color":"green"},{"text":"5","color":"yellow"},{"text":"...","color":"green"}]
+execute if score @e[limit=1,name="M@K"] mg22.3 matches 21 run tellraw @a[scores={mg22=1..}] ["",{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":"4","color":"yellow"},{"text":"...","color":"green"}]
+execute if score @e[limit=1,name="M@K"] mg22.3 matches 41 run tellraw @a[scores={mg22=1..}] ["",{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":"3","color":"yellow"},{"text":"...","color":"green"}]
+execute if score @e[limit=1,name="M@K"] mg22.3 matches 61 run tellraw @a[scores={mg22=1..}] ["",{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":"2","color":"yellow"},{"text":"...","color":"green"}]
+execute if score @e[limit=1,name="M@K"] mg22.3 matches 81 run tellraw @a[scores={mg22=1..}] ["",{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":"1","color":"yellow"},{"text":"...","color":"green"}]
+execute if score @e[limit=1,name="M@K"] mg22.3 matches 101 run function c2:mg22/initiate
+
+execute if score @e[limit=1,name="M@K"] mg22.3 matches 1 run playsound block.note_block.hat master @a[scores={mg22=1..}] ~ ~ ~ 1000
+execute if score @e[limit=1,name="M@K"] mg22.3 matches 21 run playsound block.note_block.hat master @a[scores={mg22=1..}] ~ ~ ~ 1000
+execute if score @e[limit=1,name="M@K"] mg22.3 matches 41 run playsound block.note_block.hat master @a[scores={mg22=1..}] ~ ~ ~ 1000
+execute if score @e[limit=1,name="M@K"] mg22.3 matches 61 run playsound block.note_block.hat master @a[scores={mg22=1..}] ~ ~ ~ 1000
+execute if score @e[limit=1,name="M@K"] mg22.3 matches 81 run playsound block.note_block.hat master @a[scores={mg22=1..}] ~ ~ ~ 1000

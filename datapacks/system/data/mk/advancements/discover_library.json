@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Progress!",
+            "color": "green",
+            "bold": true
+        },
+        "description": {
+            "text": "Visit the Library",
+            "color": "yellow",
+			"bold": false
+        },
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "explore_map": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mk:discover_tower"
+}

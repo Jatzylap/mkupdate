@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "If you say so, Sensei!",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Test your game in the MG Creator",
+            "color": "yellow",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:structure_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "start_mgc_game": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mk:play_minigame2"
+}

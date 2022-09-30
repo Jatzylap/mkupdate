@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Accomplishments!",
+            "color": "white",
+            "bold": true,
+            "italic": false,
+            "underlined": true,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "Proofs of expertise",
+            "color": "gold",
+            "underlined":false,
+            "bold":false
+        },
+        "icon": {
+            "item": "minecraft:knowledge_book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/amethyst_block.png"
+    },
+    "criteria": {
+        "secrets": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

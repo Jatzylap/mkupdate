@@ -1,0 +1,4 @@
+execute as @e[tag=3vent,tag=end] at @s run scoreboard players add @s mgc-1.1 1
+execute if score @e[limit=1,tag=3vent,tag=end] mgc-1.1 matches 30 if data block -307 15 72 {Text2:'{"bold":true,"color":"aqua","text":"ON"}'} run tellraw @a[tag=ed1t] ["",{"text":"Warning: The game may end instantly!","color":"red"}]
+execute as @e[tag=3vent,tag=end] at @s if score @s mgc-1.1 matches 31.. run scoreboard players set @s mgc-1.1 1
+data merge block -290 14 57 {Text2:'{"text":"Max. Range: ","clickEvent":{"action":"run_command","value":"/function library:game/toggle/range"},"bold":true,"color":"white","extra":[{"bold":true,"color":"gold","score":{"name":"@e[limit=1,tag=3vent,tag=end]","objective":"mgc-1.1"}}]}'}

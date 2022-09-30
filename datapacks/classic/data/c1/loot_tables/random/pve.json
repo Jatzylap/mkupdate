@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{0:1,mg:19}"
+                        }
+					]
+                }
+            ]
+        }
+    ]
+}

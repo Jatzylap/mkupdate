@@ -1,0 +1,1 @@
+execute as @a[scores={mg24=1..}] at @s run playsound entity.elder_guardian.curse master @s ~ ~ ~ 1000 1.5

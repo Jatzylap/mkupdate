@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:the_nether",
+  "generator": {
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "preset":"minecraft:nether"
+    },
+    "seed": 8850625231219721272,
+    "settings": "minecraft:nether",
+    "type": "minecraft:noise"
+  }
+}

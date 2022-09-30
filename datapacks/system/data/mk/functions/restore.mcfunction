@@ -1,0 +1,1 @@
+tag @s[tag=st0red] add rest0re

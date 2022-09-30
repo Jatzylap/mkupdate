@@ -1,0 +1,6 @@
+playsound ui.button.click master @s ~ ~ ~ 1
+execute unless score @e[limit=1,name="M@K"] pg1.4 matches 101..600 if data block -327 4 -4 {Text3:'{"bold":true,"color":"yellow","text":"Immediately"}'} run tellraw @s[tag=!T0] ["",{"text":"No scheduled event targeted, please press the ","color":"red"},{"text":"schedule button","color":"yellow"},{"text":" if this wasn\'t done already...","color":"red"}]
+execute unless score @e[limit=1,name="M@K"] pg1.4 matches 101..600 unless data block -327 4 -4 {Text3:'{"bold":true,"color":"yellow","text":"Immediately"}'} run tellraw @s[tag=!T0] ["",{"text":"No scheduled event targeted, please press the ","color":"red"},{"text":"schedule button","color":"yellow"},{"text":" if this wasn\'t done already...","color":"red"}]
+execute if score @e[limit=1,name="M@K"] pg1.4 matches 101..600 if data block -327 4 -4 {Text3:'{"bold":true,"color":"yellow","text":"Immediately"}'} run tellraw @s[tag=!T0] ["",{"text":"An event has already been scheduled!","color":"red"}]
+execute if score @e[limit=1,name="M@K"] pg1.4 matches 101..600 unless data block -327 4 -4 {Text3:'{"bold":true,"color":"yellow","text":"Immediately"}'} run tellraw @s[tag=!T0] ["",{"text":"An event has already been scheduled!","color":"red"}]
+execute at @s[tag=T0] run function library:play-random

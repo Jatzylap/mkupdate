@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": {
+            "text":"Minigame Kingdom Progress!",
+            "bold":true
+        },
+        "icon": {
+            "item": "minecraft:yellow_glazed_terracotta"
+        },
+        "description": "",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/dark_oak_planks.png"
+    },
+    "criteria": {
+        "first_spawn": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "That's all?",
+            "color": "green",
+            "bold": true
+        },
+        "description": {
+            "text": "Gain access to all Kingdom regions",
+            "color": "yellow",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:spyglass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "finish_tutorial": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 100
+    },
+    "parent": "mk:story"
+}

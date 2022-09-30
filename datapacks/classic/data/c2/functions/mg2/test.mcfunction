@@ -1,0 +1,1 @@
+setblock -356 2 -71 air

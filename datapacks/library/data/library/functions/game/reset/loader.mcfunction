@@ -1,0 +1,1 @@
+execute as @a[limit=1] at @s run data merge block -299 4 53 {ignoreEntities:0b,mode:"SAVE",posX:-36,posY:-14,sizeX:48,posZ:-7,integrity:1.0f,name:"minecraft:minigame",sizeY:27,sizeZ:29,showboundingbox:0b}

@@ -1,0 +1,12 @@
+execute unless entity @a[scores={mg2=1..}] run function c2:mg2/reset
+tag @a[scores={mg2=1..},x=99,y=2,z=-75,dx=10,dy=5,dz=13] remove STGplayers
+tag @a[scores={mg2=1..},x=99,y=2,z=-75,dx=10,dy=5,dz=13,limit=1] add STGplayers
+execute at @a[team=!,scores={mg2=1..},tag=STGplayers,limit=1] as @a[scores={mg2=1..},x=99,y=2,z=-75,dx=10,dy=5,dz=13] if score @e[name="M@K",limit=1] mg2 matches 0..1 run tellraw @s ["",{"text":"A game of","color":"gold"},{"text":" Bed","color":"aqua","bold":true},{"text":"Wars","color":"red","bold":true},{"text":" has begun! ---> [","color":"gold"},{"text":"Click here","color":"green","bold":true,"hoverEvent":{"action":"show_text","value":"Click to spectate this minigame"},"clickEvent":{"action":"run_command","value":"/trigger interact"}},{"text":"]","color":"gold"},{"text":" to watch the game!","color":"yellow"}]
+execute at @a[team=!,scores={mg2=1..},tag=STGplayers,limit=1] as @a[scores={mg2=1..},x=99,y=2,z=-75,dx=10,dy=5,dz=13] if score @e[name="M@K",limit=1] mg2 matches 0..1 run scoreboard players enable @s interact
+execute at @a[team=!,scores={mg2=1..},tag=STGplayers,limit=1] as @a[scores={mg2=1..},x=99,y=2,z=-75,dx=10,dy=5,dz=13] if score @e[name="M@K",limit=1] mg2 matches 0..1 run tag @s add mk.07
+execute if block 99 3 -72 lever[powered=false] unless entity @a[scores={mg2=1..},tag=!STGplayers] run title @a[scores={mg2=1..},x=99,y=2,z=-75,dx=10,dy=5,dz=13] actionbar ["",{"text":"There aren't enough Players to begin ","color":"yellow","bold":true},{"text":"(2+ players)","color":"white"}]
+execute if block 99 3 -72 lever[powered=false] if entity @a[scores={mg2=1..},x=99,y=2,z=-75,dx=10,dy=5,dz=13,team=,tag=!STGplayers] run function c2:mg2/initiate
+execute if block 99 3 -72 lever[powered=true] store result score @e[name="M@K",limit=1] mg2.1 if entity @a[scores={mg2=1..},x=99,y=2,z=-75,dx=10,dy=5,dz=13]
+execute if block 99 3 -72 lever[powered=true] if score @e[name="M@K",limit=1] mg2.1 matches ..2 run title @a[scores={mg2=1..},x=99,y=2,z=-75,dx=10,dy=5,dz=13] actionbar ["",{"text":"There aren't enough Players to begin ","color":"yellow","bold":true},{"text":"(3+ players)","color":"white"}]
+execute if block 99 3 -72 lever[powered=true] if score @e[name="M@K",limit=1] mg2.1 matches ..2 run tag @a[scores={mg2=1..},x=99,y=2,z=-75,dx=10,dy=5,dz=13] remove STGplayers
+execute if block 99 3 -72 lever[powered=true] if score @e[name="M@K",limit=1] mg2.1 matches 3.. run function c2:mg2/initiate

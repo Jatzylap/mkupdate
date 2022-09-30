@@ -1,0 +1,22 @@
+{
+  "generator": {
+    "settings": {
+      "structures": {
+        "structures": {}
+      },
+      "layers": [
+        {
+          "height": 1,
+          "block": "minecraft:bedrock"
+        },
+        {
+          "height": 1,
+          "block": "minecraft:grass_block"
+        }
+      ],
+      "biome": "minecraft:jungle"
+    },
+    "type": "minecraft:flat"
+  },
+  "type": "minecraft:default"
+}

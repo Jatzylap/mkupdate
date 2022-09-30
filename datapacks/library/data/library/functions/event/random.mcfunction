@@ -1,0 +1,19 @@
+execute unless entity @e[tag=PG,tag=mg2,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg2],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg3,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg3],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg4,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg4],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg5,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg5],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg6,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg6],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg7,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg7],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg8,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg8],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg9,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg9],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg10,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg10],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg11,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg11],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg13,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg13],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg16,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg16],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg17,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg17],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg18,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg18],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg20,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg20],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg23,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg23],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg24,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg24],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless entity @e[tag=PG,tag=mg25,nbt={Small:1b}] run summon armor_stand -326 2 -13 {Tags:[PG,mg25],Invisible:1,Small:1,Marker:1,NoBasePlate:1}
+execute unless data block -325 4 -4 {Text2:'{"bold":true,"color":"yellow","text":"In order"}'} unless data block -325 4 -4 {Text2:'{"bold":true,"color":"yellow","text":"Random"}'} run tag @e[sort=random,limit=1,tag=PG,tag=!pre,nbt={Small:1b}] add s

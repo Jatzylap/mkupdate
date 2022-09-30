@@ -1,0 +1,322 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "m": {
+                  "max": -1
+                }
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:12,lvl:1}],gui:1}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {"text":" ","extra":[{"text":"[","color":"white","bold":true,"italic":false},{"text":"SPEEDRUN MODE","color":"light_purple","bold":true,"italic":false},{"text":"]","color":"white","bold":true,"italic":false}]}
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text":"Minigames won: ","color":"green","italic":false,"extra":[{"score":{"name":"@s","objective":"7"},"color":"gold","italic":false},{"text":"/25","color":"white","italic":false}]}
+              ],
+             "conditions": [
+               {
+                 "condition": "minecraft:entity_properties",
+                 "entity": "this",
+                 "predicate": {
+                   "type_specific": {
+                      "type": "player",
+                      "advancements": {
+                        "mk:unlock_all": false,
+                        "mk:achieve_all": false
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text":"Minigames won: ","color":"green","italic":false,"extra":[{"score":{"name":"@s","objective":"7"},"color":"dark_aqua","italic":false},{"text":"/25","color":"white","italic":false}]}
+              ],
+             "conditions": [
+               {
+                 "condition": "minecraft:entity_properties",
+                 "entity": "this",
+                 "predicate": {
+                   "type_specific": {
+                      "type": "player",
+                      "advancements": {
+                        "mk:unlock_all": true,
+                        "mk:achieve_all": false
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text":"Minigames won: ","color":"green","italic":false,"extra":[{"score":{"name":"@s","objective":"7"},"color":"white","italic":false},{"text":"/25","color":"white","italic":false}]}
+              ],
+             "conditions": [
+               {
+                 "condition": "minecraft:entity_properties",
+                 "entity": "this",
+                 "predicate": {
+                   "type_specific": {
+                      "type": "player",
+                      "advancements": {
+                        "mk:achieve_all": true
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text":">> Click to Leave Party <<","color":"gray","italic":false}
+              ]
+            },
+            {
+              "function": "minecraft:fill_player_head",
+              "entity": "this"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "m": {
+                  "min": 1
+                }
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:12,lvl:1}],gui:1}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text":"Minigames won: ","color":"green","italic":false,"extra":[{"score":{"name":"@s","objective":"7"},"color":"gold","italic":false},{"text":"/25","color":"white","italic":false}]}
+              ],
+             "conditions": [
+               {
+                 "condition": "minecraft:entity_properties",
+                 "entity": "this",
+                 "predicate": {
+                   "type_specific": {
+                      "type": "player",
+                      "advancements": {
+                        "mk:unlock_all": false,
+                        "mk:achieve_all": false
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text":"Minigames won: ","color":"green","italic":false,"extra":[{"score":{"name":"@s","objective":"7"},"color":"dark_aqua","italic":false},{"text":"/25","color":"white","italic":false}]}
+              ],
+             "conditions": [
+               {
+                 "condition": "minecraft:entity_properties",
+                 "entity": "this",
+                 "predicate": {
+                   "type_specific": {
+                      "type": "player",
+                      "advancements": {
+                        "mk:unlock_all": true,
+                        "mk:achieve_all": false
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text":"Minigames won: ","color":"green","italic":false,"extra":[{"score":{"name":"@s","objective":"7"},"color":"white","italic":false},{"text":"/25","color":"white","italic":false}]}
+              ],
+             "conditions": [
+               {
+                 "condition": "minecraft:entity_properties",
+                 "entity": "this",
+                 "predicate": {
+                   "type_specific": {
+                      "type": "player",
+                      "advancements": {
+                        "mk:achieve_all": true
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text":">> Click to Leave Party <<","color":"gray","italic":false}
+              ]
+            },
+            {
+              "function": "minecraft:fill_player_head",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text":" ",
+                "extra": [
+                  {
+                    "selector": "@s",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:knowledge_book",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "m": 0
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:12,lvl:1}],gui:1}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {"text":" [STORY MODE]","color":"gold","bold":true,"italic":false}
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text":"Minigames won: ","color":"green","italic":false,"extra":[{"score":{"name":"@s","objective":"7"},"color":"gold","italic":false},{"text":"/25","color":"dark_aqua","italic":false}]}
+              ],
+             "conditions": [
+               {
+                 "condition": "minecraft:entity_properties",
+                 "entity": "this",
+                 "predicate": {
+                   "type_specific": {
+                      "type": "player",
+                      "advancements": {
+                        "mk:unlock_all": false,
+                        "mk:achieve_all": false
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text":"Minigames won: ","color":"green","italic":false,"extra":[{"score":{"name":"@s","objective":"7"},"color":"dark_aqua","italic":false},{"text":"/25","color":"white","italic":false}]}
+              ],
+             "conditions": [
+               {
+                 "condition": "minecraft:entity_properties",
+                 "entity": "this",
+                 "predicate": {
+                   "type_specific": {
+                      "type": "player",
+                      "advancements": {
+                        "mk:unlock_all": true,
+                        "mk:achieve_all": false
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text":"Minigames won: ","color":"green","italic":false,"extra":[{"score":{"name":"@s","objective":"7"},"color":"white","italic":false},{"text":"/25","color":"white","italic":false}]}
+              ],
+             "conditions": [
+               {
+                 "condition": "minecraft:entity_properties",
+                 "entity": "this",
+                 "predicate": {
+                   "type_specific": {
+                      "type": "player",
+                      "advancements": {
+                        "mk:achieve_all": true
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text":">> Click to Leave Party <<","color":"gray","italic":false}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
