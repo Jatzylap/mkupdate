@@ -53,6 +53,9 @@
 		},
 		"mg22": {
 			"trigger": "minecraft:impossible"
+		},
+		"mg26": {
+			"trigger": "minecraft:impossible"
 		}
 	},
     "rewards": {

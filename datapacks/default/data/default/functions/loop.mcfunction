@@ -9,6 +9,8 @@ execute as @e[tag=h4,tag=mg12] at @s run tp @s 298 71.5 -287 180 0
 execute as @a[tag=mk.06,scores={interact=1..}] at @s run tp @s -316 0 12
 execute as @a[tag=mk.06,scores={interact=1..}] at @s run function clear:chat
 
+execute in sister_dimension as @e[tag=mg26,tag=chest] at @s run function d4:mg26/pre-loop
+
 #Player count
 execute unless entity @a[scores={mg11=1..}] run data merge block -66 8 -94 {Text3:''}
 execute unless entity @a[scores={mg15=1..}] run data merge block -150 5 -89 {Text3:''}
@@ -28,7 +30,7 @@ execute if entity @a[tag=D_C,x=-113,y=1,z=-78,distance=..10.9] if entity @a[tag=
 execute if entity @a[tag=D_C,x=-113,y=1,z=-78,distance=..10.9] if entity @a[tag=D_C,x=-103,y=1,z=-79,distance=..6] if block -151 4 -89 air unless entity @e[tag=inf0,x=-103,y=-10,z=-79,dy=15] run summon armor_stand -103 0 -79 {NoGravity:1,Invisible:1,Small:1,Tags:[inf0],CustomName:'{"text":"Minigames: ","color":"yellow","bold":true,"extra":[{"text":"2","color":"white"}]}',CustomNameVisible:1}
 execute if entity @a[tag=D_C,x=-113,y=1,z=-78,distance=..10.9] if entity @a[tag=D_C,x=-103,y=1,z=-79,distance=..6] if block -151 4 -89 #signs unless entity @e[tag=inf0,x=-103,y=-10,z=-79,dy=15] run summon armor_stand -103 0 -79 {NoGravity:1,Invisible:1,Small:1,Tags:[inf0],CustomName:'{"text":"Minigames: ","color":"yellow","bold":true,"extra":[{"text":"3","color":"white"}]}',CustomNameVisible:1}
 execute if entity @a[tag=D_C,x=-113,y=1,z=-78,distance=..10.9] if entity @a[tag=D_C,x=-113,y=1,z=-70,distance=..6] unless entity @e[tag=inf0,x=-113,y=-10,z=-70,dy=15] unless entity @a[advancements={mk:achieve_all=true}] run summon armor_stand -113 0 -70 {NoGravity:1,Invisible:1,Small:1,Tags:[inf0],CustomName:'{"text":"Minigames: ","color":"yellow","bold":true,"extra":[{"text":"?","color":"white"}]}',CustomNameVisible:1}
-execute if entity @a[tag=D_C,x=-113,y=1,z=-78,distance=..10.9] if entity @a[tag=D_C,x=-113,y=1,z=-70,distance=..6] unless entity @e[tag=inf0,x=-113,y=-10,z=-70,dy=15] if entity @a[advancements={mk:achieve_all=true}] run summon armor_stand -113 0 -70 {NoGravity:1,Invisible:1,Small:1,Tags:[inf0],CustomName:'{"text":"Minigames: ","color":"yellow","bold":true,"extra":[{"text":"0","color":"red"}]}',CustomNameVisible:1}
+execute if entity @a[tag=D_C,x=-113,y=1,z=-78,distance=..10.9] if entity @a[tag=D_C,x=-113,y=1,z=-70,distance=..6] unless entity @e[tag=inf0,x=-113,y=-10,z=-70,dy=15] if entity @a[advancements={mk:achieve_all=true}] run summon armor_stand -113 0 -70 {NoGravity:1,Invisible:1,Small:1,Tags:[inf0],CustomName:'{"text":"Minigames: ","color":"yellow","bold":true,"extra":[{"text":"1","color":"white"}]}',CustomNameVisible:1}
 execute if data block -113 3 -70 {Text2:'{"bold":true,"color":"yellow","text":"TRIVIA"}'} unless entity @a[advancements={mk:achieve_all=true}] run data merge block -113 3 -70 {Text2:'{"bold":true,"color":"yellow","text":"???"}'}
 execute if data block -113 3 -70 {Text2:'{"bold":true,"color":"yellow","text":"???"}'} if entity @a[advancements={mk:achieve_all=true}] run data merge block -113 3 -70 {Text2:'{"bold":true,"color":"yellow","text":"TRIVIA"}'}
 #b

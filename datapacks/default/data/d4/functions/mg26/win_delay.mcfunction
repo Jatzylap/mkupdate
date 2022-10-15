@@ -1,0 +1,3 @@
+execute as @e[tag=mg26_start,limit=1,scores={mg26=1}] at @s if score @s mg26.2 matches 6.. in sister_dimension run function d4:mg26/achieve
+execute as @e[tag=mg26_start,limit=1,scores={mg26=2}] at @s if score @s mg26.2 matches 9.. in sister_dimension run function d4:mg26/achieve
+execute as @e[tag=mg26_start,limit=1,scores={mg26=3}] at @s if score @s mg26.2 matches 6.. in sister_dimension run function d4:mg26/achieve

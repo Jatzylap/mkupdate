@@ -11,7 +11,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{0:1,mg:24}"
+                            "tag": "{0:1,mg:26}"
                         }
 					]
                 }

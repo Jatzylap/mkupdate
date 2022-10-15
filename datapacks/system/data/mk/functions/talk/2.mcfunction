@@ -383,16 +383,11 @@ execute as @e[tag=n,scores={0=1051}] at @s if entity @e[tag=1p] run data merge e
 execute as @e[tag=n,scores={0=1053}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out f","bold":true}'}
 execute as @e[tag=n,scores={0=1055}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out fo","bold":true}'}
 execute as @e[tag=n,scores={0=1057}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for","bold":true}'}
-execute as @e[tag=n,scores={0=1059}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for s","bold":true}'}
-execute as @e[tag=n,scores={0=1061}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for su","bold":true}'}
-execute as @e[tag=n,scores={0=1063}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for suc","bold":true}'}
-execute as @e[tag=n,scores={0=1065}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for such","bold":true}'}
-execute as @e[tag=n,scores={0=1067}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for such t","bold":true}'}
-execute as @e[tag=n,scores={0=1069}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for such th","bold":true}'}
-execute as @e[tag=n,scores={0=1071}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for such thi","bold":true}'}
-execute as @e[tag=n,scores={0=1073}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for such thin","bold":true}'}
-execute as @e[tag=n,scores={0=1075}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for such thing","bold":true}'}
-execute as @e[tag=n,scores={0=1077}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for such things!","bold":true}'}
+execute as @e[tag=n,scores={0=1059}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for t","bold":true}'}
+execute as @e[tag=n,scores={0=1061}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for th","bold":true}'}
+execute as @e[tag=n,scores={0=1063}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for tha","bold":true}'}
+execute as @e[tag=n,scores={0=1065}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for that","bold":true}'}
+execute as @e[tag=n,scores={0=1067}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"be sticking a sharp-angled eye out for that!","bold":true}'}
 
 execute as @e[tag=n,scores={0=1117}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"O","bold":true}'}
 execute as @e[tag=n,scores={0=1120}] at @s if entity @e[tag=1p] run data merge entity @s {CustomName:'{"text":"Oh","bold":true}'}

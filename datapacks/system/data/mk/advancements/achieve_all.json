@@ -6,7 +6,7 @@
             "bold": true
         },
         "description": {
-            "text": "Win at all the minigames in the Map"
+            "text": "Win at all the minigames in the map"
         },
         "icon": {
             "item": "minecraft:ender_chest"
@@ -90,6 +90,9 @@
 			"trigger": "minecraft:impossible"
 		},
 		"mg25": {
+			"trigger": "minecraft:impossible"
+		},
+		"mg26": {
 			"trigger": "minecraft:impossible"
 		}
 	},

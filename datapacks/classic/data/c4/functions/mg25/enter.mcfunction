@@ -13,7 +13,7 @@ team modify mg25-black seeFriendlyInvisibles false
 team modify mg25-white seeFriendlyInvisibles false
 execute in overworld at @s[tag=PG] if data block -47 6 71 {Text3:'{"obfuscated":true,"color":"gold","clickEvent":{"action":"run_command","value":"tag @s[tag=!T0] add SPmg25"},"text":"@"}'} run tag @s add SPmg25
 scoreboard players add @s[tag=!T0] mg25 1
-execute in sister_dimension run tp @s[scores={mg25=1..}] 264 2 12
+execute in sister_dimension run tp @s[scores={mg25=1..},tag=!SPmg25] 264 2 12
 execute in sister_dimension run tp @s[tag=SPmg25] 284 12 12
 execute in sister_dimension run particle cloud 264 2 12 1 1 1 0.1 3000 force @s[tag=P0ft,tag=!N0,scores={mg25=1..}]
 title @s[tag=!T0] clear

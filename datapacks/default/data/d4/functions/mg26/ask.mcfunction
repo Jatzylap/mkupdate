@@ -1,0 +1,26 @@
+#HISTORY
+execute if entity @e[name="M@K",limit=1,scores={mg26=1,mg26.2=1}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"gold"},{"text":"According to legend, what kind of person discovered the land which would become Minigame Kingdom?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=1,mg26.2=2}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"gold"},{"text":"What ancient tribe dedicates itself to the protection of Minigame Kingdom?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=1,mg26.2=3}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"gold"},{"text":"Throughout the ages, what renown hereditary trait has long characterised Chabadu shulkers?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=1,mg26.2=4}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"gold"},{"text":"According to legend, what was the primary source of corruption and ruin in the kingdom?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=1,mg26.2=5}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"gold"},{"text":"What epoch in Minigame Kingdom\'s history depict the ceiling frescos of each Game tower?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=1,mg26.2=6}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"gold"},{"text":"Prior to the"},{"text":" Siege of Darkness","italic":true},{"text":", what valuable asset in the kingdom induced conflict between the Chabadu and the Dark beings?\n","italic":false}]
+
+#GENERAL
+execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=1}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"Who is the creator behind this map?"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=2}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"How many minigame branches exist in Minigame Kingdom?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=3}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"What is the portmanteau associated with a Game tower's minigame category menu?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=4}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"How many cobblestone pillars float above the Minigame Kingdom spawn?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=5}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"How many mountains surround the Minigame Kingdom spawn area?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=6}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"In the GoldWars minigame, what crucial step must both teams take in order to craft a Gold Block?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=7}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"In the Tower Defence minigame, which mob invader awards you 30 spending points when killed?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=8}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"What is the name of the first minigame title added to the map?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=9}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"How many "},{"text":"Warp slots","italic":true},{"text":" is a player limited to inside an Ender chest?\n","italic":false}]
+
+#LITERATURE
+execute if entity @e[name="M@K",limit=1,scores={mg26=3,mg26.2=1}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"green"},{"text":"Who is the 'master poet' behind the poeticised version of the Chabaduan prophecy?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=3,mg26.2=2}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"green"},{"text":"According to Chabaduan texts, how did the 'Dark beings' alter the course of fate bound to early Minigame Kingdom?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=3,mg26.2=3}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"green"},{"text":"According to the Chabaduan prophecy, who is deemed "},{"text":"trustworthy","italic":true},{"text":"?\n","italic":false}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=3,mg26.2=4}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"green"},{"text":"According to "},{"text":"Our closest relatives in hindsight","italic":true},{"text":", what rare gift distinguishes the Chabadu shulkers from other specimen?\n","italic":false}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=3,mg26.2=5}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"green"},{"text":"What is the cardinal message stated in: "},{"text":"A History of Chabadu dialect","italic":true},{"text":"?\n","italic":false}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=3,mg26.2=6}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"green"},{"text":"According to current folklore, for how long has Minigame Kingdom dwelled in an era of peace and prosperity?\n"}]

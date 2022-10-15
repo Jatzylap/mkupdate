@@ -12,10 +12,10 @@ execute as @a[scores={mg24=1..},tag=MMplayers,tag=mg24-pink] at @s run team join
 execute as @a[scores={mg24=1..},tag=MMplayers,tag=mg24-green] at @s run team join mg24-green
 effect clear @a[scores={mg24=1..},tag=MMplayers]
 gamemode adventure @a[scores={mg24=1..},tag=MMplayers]
-spawnpoint @a[team=mg24-pink,tag=MMplayers] 791 3 60
-spawnpoint @a[team=mg24-green,tag=MMplayers] 932 3 60
 tp @a[team=mg24-pink,tag=MMplayers] 791 3 60 -90 0
 tp @a[team=mg24-green,tag=MMplayers] 932 3 60 90 0
+spawnpoint @a[team=mg24-pink,tag=MMplayers] 791 3 60
+spawnpoint @a[team=mg24-green,tag=MMplayers] 932 3 60
 bossbar add mm_pink_gen ["",{"text":"Missile Generator Health"}]
 bossbar add mm_green_gen ["",{"text":"Missile Generator Health"}]
 tellraw @a[scores={mg24=1..}] ["",{"text":"\n>","color":"gray"},{"text":" You have ","color":"aqua"},{"text":"5 minutes","color":"yellow"},{"text":" to kill a maximum of players (","color":"aqua"},{"text":"using fireworks","color":"white"},{"text":") before the ","color":"aqua"},{"text":"champion team","color":"gold"},{"text":" is announced!\n","color":"aqua"}]

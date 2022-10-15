@@ -1,0 +1,4 @@
+execute in sister_dimension run setblock 21 2 -377 chest[facing=west]
+execute in sister_dimension run data merge block 21 2 -377 {Items:[{Slot:10b,Count:1b,id:"minecraft:orange_concrete",tag:{0:1,gui:1,display:{Name:'{"text":"MK HISTORY","italic":false,"bold":true}'}}},{Slot:13b,Count:1b,id:"minecraft:blue_concrete",tag:{0:1,gui:1,display:{Name:'{"text":"MK GENERAL","italic":false,"bold":true}'}}},{Slot:16b,Count:1b,id:"minecraft:lime_concrete",tag:{0:1,gui:1,display:{Name:'{"text":"MK LITERATURE","italic":false,"bold":true}'}}}]}
+execute as @e[tag=mg26,tag=chest] at @s run tp ~ 3.875 ~
+scoreboard players reset @e[name="M@K",limit=1] mg26
