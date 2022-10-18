@@ -8,8 +8,8 @@ execute if entity @e[name="M@K",limit=1,scores={mg26=1,mg26.2=6}] run tellraw @a
 
 #GENERAL
 execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=1}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"Who is the creator behind this map?"}]
-execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=2}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"How many minigame branches exist in Minigame Kingdom?\n"}]
-execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=3}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"What is the portmanteau associated with a Game tower's minigame category menu?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=2}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"How many minigame genres exist in Minigame Kingdom?\n"}]
+execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=3}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"What is the portmanteau associated with a Game tower's minigame branch menu?\n"}]
 execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=4}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"How many cobblestone pillars float above the Minigame Kingdom spawn?\n"}]
 execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=5}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"How many mountains surround the Minigame Kingdom spawn area?\n"}]
 execute if entity @e[name="M@K",limit=1,scores={mg26=2,mg26.2=6}] run tellraw @a[scores={mg26=1..}] ["",{"text":"\n\nQ: ","color":"blue"},{"text":"In the GoldWars minigame, what crucial step must both teams take in order to craft a Gold Block?\n"}]

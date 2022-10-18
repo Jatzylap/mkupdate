@@ -27,7 +27,7 @@ execute if score @e[name="M@K",limit=1] mg26.2 matches 2 as @e[tag=q3,tag=mg26] 
 execute if score @e[name="M@K",limit=1] mg26.2 matches 2 as @e[tag=q4,tag=mg26] at @s run data merge entity @s {CustomName:'{"bold":true,"text":"22"}'}
 
 execute if score @e[name="M@K",limit=1] mg26.2 matches 3 run tag @e[tag=q2,tag=mg26] add correct
-execute if score @e[name="M@K",limit=1] mg26.2 matches 3 as @e[tag=q1,tag=mg26] at @s run data merge entity @s {CustomName:'{"bold":true,"text":"Categomenu"}'}
+execute if score @e[name="M@K",limit=1] mg26.2 matches 3 as @e[tag=q1,tag=mg26] at @s run data merge entity @s {CustomName:'{"bold":true,"text":"Branchium"}'}
 execute if score @e[name="M@K",limit=1] mg26.2 matches 3 as @e[tag=q2,tag=mg26] at @s run data merge entity @s {CustomName:'{"bold":true,"text":"Chabadupax"}'}
 execute if score @e[name="M@K",limit=1] mg26.2 matches 3 as @e[tag=q3,tag=mg26] at @s run data merge entity @s {CustomName:'{"bold":true,"text":"Gamenu"}'}
 execute if score @e[name="M@K",limit=1] mg26.2 matches 3 as @e[tag=q4,tag=mg26] at @s run data merge entity @s {CustomName:'{"bold":true,"text":"Shulkonado"}'}

@@ -67,8 +67,8 @@ execute if entity @a[scores={mgc=-1..}] if entity @e[tag=3vent,tag=count] if ent
 execute if data block -307 15 72 {Text2:'{"bold":true,"color":"aqua","text":"ON"}'} run setblock -299 13 63 red_stained_glass
 execute if data block -307 15 72 {Text2:'{"bold":true,"color":"gray","text":"OFF"}'} run setblock -299 13 63 light_gray_stained_glass
 #Save/Route
-execute if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Branch?"}'} run data merge block -299 16 72 {Text2:'{"bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/execute unless entity @a[scores={mgc=-1..}] run function library:game/save"},"text":"SAVE"}'}
-execute unless data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Branch?"}'} run data merge block -299 16 72 {Text2:'{"bold":true,"color":"yellow","clickEvent":{"action":"run_command","value":"/execute unless entity @a[scores={mgc=-1..}] run function library:game/save"},"text":"ROUTE"}'}
+execute if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Genre?"}'} run data merge block -299 16 72 {Text2:'{"bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/execute unless entity @a[scores={mgc=-1..}] run function library:game/save"},"text":"SAVE"}'}
+execute unless data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Genre?"}'} run data merge block -299 16 72 {Text2:'{"bold":true,"color":"yellow","clickEvent":{"action":"run_command","value":"/execute unless entity @a[scores={mgc=-1..}] run function library:game/save"},"text":"ROUTE"}'}
 #Import
 execute if data block -307 15 72 {Text2:'{"bold":true,"color":"aqua","text":"ON"}'} if entity @a[scores={mgc=-1..}] if block -301 15 72 stone_button[powered=true] run tellraw @a[tag=ed1t] ["",{"text":"You can't do this since a game is running!","color":"red"}]
 execute if block -301 15 72 stone_button[powered=true] run setblock -301 15 72 stone_button

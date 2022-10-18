@@ -12,13 +12,13 @@ execute unless entity @e[limit=1,tag=end,tag=3rror] if block -289 11 63 redstone
 
 #ERRORS
 tag @e[tag=end,tag=3vent] remove 3rror
-execute if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Branch?"}'} run tag @e[tag=end,tag=3vent] add 3rror
+execute if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Genre?"}'} run tag @e[tag=end,tag=3vent] add 3rror
 execute if data block -306 15 54 {Text3:'{"color":"gray","clickEvent":{"action":"run_command","value":"/function library:game/toggle/criterion"},"text":"Untriggered :("}'} run tag @e[tag=end,tag=3vent] add 3rror
 execute if entity @e[limit=1,tag=3vent,tag=end,scores={mgc-2.1=501..}] run tag @e[tag=end,tag=3vent] add 3rror
 execute if entity @e[tag=3vent,tag=start] if entity @e[tag=3vent,tag=end] if data block -290 14 57 {Text2:'{"bold":true,"color":"white","text":"Target"}'} unless entity @e[tag=3vent,tag=target] run tag @e[tag=end,tag=3vent] add 3rror
 execute if entity @e[tag=3vent,tag=start] if entity @e[tag=3vent,tag=end] if data block -290 14 57 {Text2:'{"bold":true,"color":"white","text":"Entities"}'} unless entity @e[tag=3vent,tag=entity] run tag @e[tag=end,tag=3vent] add 3rror
 execute if entity @e[tag=3vent,tag=start] if entity @e[tag=3vent,tag=end] if data block -290 14 57 {Text2:'{"bold":true,"color":"white","text":"Blocks"}'} unless entity @e[tag=3vent,tag=block] run tag @e[tag=end,tag=3vent] add 3rror
-execute if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Branch?"}'} run tag @e[tag=end,tag=3vent] add 3rror
+execute if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Genre?"}'} run tag @e[tag=end,tag=3vent] add 3rror
 execute unless entity @e[tag=3vent,tag=button] if data block -290 15 57 {Text3:'{"color":"yellow","clickEvent":{"action":"run_command","value":"/function library:game/toggle/trigger"},"extra":[{"color":"yellow","text":" >>"}],"text":"@Button"}'} run tag @e[tag=end,tag=3vent] add 3rror
 
 #PLAYER
@@ -1244,17 +1244,17 @@ execute if data block -307 15 72 {Text2:'{"bold":true,"color":"gray","text":"OFF
 data merge block -299 16 72 {Text1:'{"color":"aqua","clickEvent":{"action":"run_command","value":"/execute if entity @a[scores={mgc=-1..}] if block -299 13 63 red_stained_glass run tellraw @s [\\"\\",{\\"text\\":\\"The game cannot be saved in its current state until its players have left.\\",\\"color\\":\\"red\\"}]"},"text":"-------------"}'}
 
 #Save/Route
-execute if entity @e[name="M@K",limit=1,tag=!mgc_save] if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Branch?"}'} run data merge block -299 16 72 {Text2:'{"bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/execute unless entity @a[scores={mgc=-1..}] run function library:game/save"},"text":"SAVE"}'}
-execute if entity @e[name="M@K",limit=1,tag=mgc_save] if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Branch?"}'} run data merge block -299 16 72 {Text2:'{"bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/execute unless entity @a[scores={mgc=-1..}] run function library:game/save"},"text":"SAVE AS"}'}
+execute if entity @e[name="M@K",limit=1,tag=!mgc_save] if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Genre?"}'} run data merge block -299 16 72 {Text2:'{"bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/execute unless entity @a[scores={mgc=-1..}] run function library:game/save"},"text":"SAVE"}'}
+execute if entity @e[name="M@K",limit=1,tag=mgc_save] if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Genre?"}'} run data merge block -299 16 72 {Text2:'{"bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/execute unless entity @a[scores={mgc=-1..}] run function library:game/save"},"text":"SAVE AS"}'}
 execute if entity @e[name="M@K",limit=1,tag=mgc_save] if data block -299 16 72 {Text4:'{"text":""}',Text2:'{"bold":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/execute unless entity @a[scores={mgc=-1..}] run function library:game/save"},"text":"SAVE AS"}'} run tag @e[tag=mgc_save] remove mgc_save
 
-execute if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Branch?"}'} run setblock -298 16 72 jungle_wall_sign keep
-execute if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Branch?"}'} run setblock -300 16 72 jungle_wall_sign keep
-execute if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Branch?"}'} run data merge block -298 16 72 {Text3:'{"clickEvent":{"action":"run_command","value":"/function library:game/toggle/state-left"},"bold":true,"color":"aqua","text":"<<"}'}
-execute if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Branch?"}'} run data merge block -300 16 72 {Text3:'{"clickEvent":{"action":"run_command","value":"/function library:game/toggle/state-right"},"bold":true,"color":"aqua","text":">>"}'}
-execute unless data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Branch?"}'} run data merge block -299 16 72 {Text4:'',Text2:'{"bold":true,"color":"yellow","clickEvent":{"action":"run_command","value":"/execute unless entity @a[scores={mgc=-1..}] run function library:game/save"},"text":"ROUTE"}'}
-execute unless data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Branch?"}'} run setblock -298 16 72 air destroy
-execute unless data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Branch?"}'} run setblock -300 16 72 air destroy
+execute if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Genre?"}'} run setblock -298 16 72 jungle_wall_sign keep
+execute if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Genre?"}'} run setblock -300 16 72 jungle_wall_sign keep
+execute if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Genre?"}'} run data merge block -298 16 72 {Text3:'{"clickEvent":{"action":"run_command","value":"/function library:game/toggle/state-left"},"bold":true,"color":"aqua","text":"<<"}'}
+execute if data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Genre?"}'} run data merge block -300 16 72 {Text3:'{"clickEvent":{"action":"run_command","value":"/function library:game/toggle/state-right"},"bold":true,"color":"aqua","text":">>"}'}
+execute unless data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Genre?"}'} run data merge block -299 16 72 {Text4:'',Text2:'{"bold":true,"color":"yellow","clickEvent":{"action":"run_command","value":"/execute unless entity @a[scores={mgc=-1..}] run function library:game/save"},"text":"ROUTE"}'}
+execute unless data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Genre?"}'} run setblock -298 16 72 air destroy
+execute unless data block -308 15 68 {Text2:'{"bold":true,"color":"aqua","text":"Genre?"}'} run setblock -300 16 72 air destroy
 setblock -308 16 68 jungle_wall_sign[facing=east]{Text4:'{"text":"","clickEvent":{"action":"run_command","value":"/function library:game/toggle/spectators"}}',Text2:'{"bold":true,"color":"white","text":"SPECTATORS"}',Text3:'{"bold":true,"color":"gray","text":"OFF","extra":[{"bold":false,"color":"yellow","text":" >>"}]}'} keep
 execute if block -308 16 69 birch_wall_sign run setblock -308 16 70 jungle_wall_sign[facing=east]{Text4:'{"text":"","clickEvent":{"action":"run_command","value":"/function library:game/toggle/players2"}}',Text2:'{"bold":true,"color":"white","text":"PLAYER LIMIT"}',Text3:'{"bold":true,"color":"red","text":"NONE","extra":[{"bold":false,"color":"yellow","text":" >>"}]}'} keep
 execute if block -308 16 69 oak_wall_sign run setblock -308 16 70 air destroy
