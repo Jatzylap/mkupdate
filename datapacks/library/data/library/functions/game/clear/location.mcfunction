@@ -1,6 +1,6 @@
-data merge block -308 15 70 {Text4:'',Text3:'{"color":"yellow","clickEvent":{"action":"run_command","value":"/function library:game/toggle/genre"},"text":">>"}',Text2:'{"bold":true,"color":"aqua","text":"Genre?"}',Text1:''}
-data merge block -308 15 69 {Text4:'',Text3:'',Text2:'{"bold":true,"color":"aqua","text":"Category?"}',Text1:'{"text":""}'}
-data merge block -308 15 68 {Text4:'',Text3:'',Text2:'{"bold":true,"color":"aqua","text":"Branch?"}',Text1:'{"text":""}'}
+data merge block -308 15 70 {Text4:'',Text3:'{"color":"yellow","clickEvent":{"action":"run_command","value":"/function library:game/toggle/category"},"text":">>"}',Text2:'{"bold":true,"color":"aqua","text":"Category?"}',Text1:''}
+data merge block -308 15 69 {Text4:'',Text3:'',Text2:'{"bold":true,"color":"aqua","text":"Branch?"}',Text1:'{"text":""}'}
+data merge block -308 15 68 {Text4:'',Text3:'',Text2:'{"bold":true,"color":"aqua","text":"Genre?"}',Text1:'{"text":""}'}
 tag @e[name="M@K",limit=1] remove MGCroute
 forceload add -15 -25 -15 -1
 forceload add -42 17
