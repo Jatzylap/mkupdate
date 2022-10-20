@@ -10,6 +10,7 @@ execute at @s[tag=0n1] run setblock -113 8 -91 white_terracotta
 execute at @s[tag=0n1] run fill -78 16 -40 -60 34 -58 iron_block replace #theme_blocks
 execute at @s[tag=0n1] run fill -117 2 -62 -109 18 -68 light_gray_terracotta replace #theme_blocks2
 execute at @s[tag=0n1] run fill -114 15 -68 -112 18 -68 white_terracotta replace #theme_blocks
+execute at @s[tag=0n1] run fill -121 6 -72 -105 6 -86 white_terracotta replace #theme_blocks
 execute at @s[tag=0n1] run fill -103 8 -80 -103 11 -78 white_stained_glass replace #theme_blocks
 execute at @s[tag=0n1] run fill -123 8 -78 -123 11 -80 white_stained_glass replace #theme_blocks
 execute at @s[tag=0n1] run data merge entity @e[limit=1,tag=D_chabadu] {Color:0}
@@ -26,6 +27,7 @@ execute at @s[tag=0n2] run setblock -113 8 -91 red_terracotta
 execute at @s[tag=0n2] run fill -78 16 -40 -60 34 -58 nether_wart_block replace #theme_blocks
 execute at @s[tag=0n2] run fill -117 2 -62 -109 18 -68 pink_terracotta replace #theme_blocks2
 execute at @s[tag=0n2] run fill -114 15 -68 -112 18 -68 red_terracotta replace #theme_blocks
+execute at @s[tag=0n2] run fill -121 6 -72 -105 6 -86 red_terracotta replace #theme_blocks
 execute at @s[tag=0n2] run fill -103 8 -80 -103 11 -78 red_stained_glass replace #theme_blocks
 execute at @s[tag=0n2] run fill -123 8 -78 -123 11 -80 red_stained_glass replace #theme_blocks
 execute at @s[tag=0n2] run data merge entity @e[limit=1,tag=D_chabadu] {Color:14}
@@ -42,6 +44,7 @@ execute at @s[tag=0n3] run setblock -113 8 -91 magenta_terracotta
 execute at @s[tag=0n3] run fill -78 16 -40 -60 34 -58 purpur_block replace #theme_blocks
 execute at @s[tag=0n3] run fill -117 2 -62 -109 18 -68 purple_terracotta replace #theme_blocks2
 execute at @s[tag=0n3] run fill -114 15 -68 -112 18 -68 magenta_terracotta replace #theme_blocks
+execute at @s[tag=0n3] run fill -121 6 -72 -105 6 -86 magenta_terracotta replace #theme_blocks
 execute at @s[tag=0n3] run fill -103 8 -80 -103 11 -78 magenta_stained_glass replace #theme_blocks
 execute at @s[tag=0n3] run fill -123 8 -78 -123 11 -80 magenta_stained_glass replace #theme_blocks
 execute at @s[tag=0n3] run data merge entity @e[limit=1,tag=D_chabadu] {Color:2}
@@ -58,6 +61,7 @@ execute at @s[tag=0n4] run setblock -113 8 -91 lime_terracotta
 execute at @s[tag=0n4] run fill -78 16 -40 -60 34 -58 emerald_block replace #theme_blocks
 execute at @s[tag=0n4] run fill -117 2 -62 -109 18 -68 green_terracotta replace #theme_blocks2
 execute at @s[tag=0n4] run fill -114 15 -68 -112 18 -68 lime_terracotta replace #theme_blocks
+execute at @s[tag=0n4] run fill -121 6 -72 -105 6 -86 lime_terracotta replace #theme_blocks
 execute at @s[tag=0n4] run fill -103 8 -80 -103 11 -78 lime_stained_glass replace #theme_blocks
 execute at @s[tag=0n4] run fill -123 8 -78 -123 11 -80 lime_stained_glass replace #theme_blocks
 execute at @s[tag=0n4] run data merge entity @e[limit=1,tag=D_chabadu] {Color:5}
@@ -74,6 +78,7 @@ execute at @s[tag=0n5] run setblock -113 8 -91 light_blue_terracotta
 execute at @s[tag=0n5] run fill -78 16 -40 -60 34 -58 diamond_block replace #theme_blocks
 execute at @s[tag=0n5] run fill -117 2 -62 -109 18 -68 cyan_terracotta replace #theme_blocks2
 execute at @s[tag=0n5] run fill -114 15 -68 -112 18 -68 light_blue_terracotta replace #theme_blocks
+execute at @s[tag=0n5] run fill -121 6 -72 -105 6 -86 light_blue_terracotta replace #theme_blocks
 execute at @s[tag=0n5] run fill -103 8 -80 -103 11 -78 light_blue_stained_glass replace #theme_blocks
 execute at @s[tag=0n5] run fill -123 8 -78 -123 11 -80 light_blue_stained_glass replace #theme_blocks
 execute at @s[tag=0n5] run data merge entity @e[limit=1,tag=D_chabadu] {Color:3}
@@ -90,6 +95,7 @@ execute at @s[tag=0n6] run setblock -113 8 -91 gray_terracotta
 execute at @s[tag=0n6] run fill -78 16 -40 -60 34 -58 netherite_block replace #theme_blocks
 execute at @s[tag=0n6] run fill -117 2 -62 -109 18 -68 black_terracotta replace #theme_blocks2
 execute at @s[tag=0n6] run fill -114 15 -68 -112 18 -68 gray_terracotta replace #theme_blocks
+execute at @s[tag=0n6] run fill -121 6 -72 -105 6 -86 gray_terracotta replace #theme_blocks
 execute at @s[tag=0n6] run fill -103 8 -80 -103 11 -78 gray_stained_glass replace #theme_blocks
 execute at @s[tag=0n6] run fill -123 8 -78 -123 11 -80 gray_stained_glass replace #theme_blocks
 execute at @s[tag=0n6] run data merge entity @e[limit=1,tag=D_chabadu] {Color:7}
@@ -106,6 +112,7 @@ execute at @s[tag=0n7] run setblock -113 8 -91 blue_terracotta
 execute at @s[tag=0n7] run fill -78 16 -40 -60 34 -58 lapis_block replace #theme_blocks
 execute at @s[tag=0n7] run fill -117 2 -62 -109 18 -68 cyan_terracotta replace #theme_blocks2
 execute at @s[tag=0n7] run fill -114 15 -68 -112 18 -68 blue_terracotta replace #theme_blocks
+execute at @s[tag=0n7] run fill -121 6 -72 -105 6 -86 blue_terracotta replace #theme_blocks
 execute at @s[tag=0n7] run fill -103 8 -80 -103 11 -78 blue_stained_glass replace #theme_blocks
 execute at @s[tag=0n7] run fill -123 8 -78 -123 11 -80 blue_stained_glass replace #theme_blocks
 execute at @s[tag=0n7] run data merge entity @e[limit=1,tag=D_chabadu] {Color:11}
@@ -122,6 +129,7 @@ execute at @s[tag=0n8] run setblock -113 8 -91 yellow_terracotta
 execute at @s[tag=0n8] run fill -78 16 -40 -60 34 -58 gold_block replace #theme_blocks
 execute at @s[tag=0n8] run fill -117 2 -62 -109 18 -68 orange_terracotta replace #theme_blocks2
 execute at @s[tag=0n8] run fill -114 15 -68 -112 18 -68 yellow_terracotta replace #theme_blocks
+execute at @s[tag=0n8] run fill -121 6 -72 -105 6 -86 yellow_terracotta replace #theme_blocks
 execute at @s[tag=0n8] run fill -103 8 -80 -103 11 -78 yellow_stained_glass replace #theme_blocks
 execute at @s[tag=0n8] run fill -123 8 -78 -123 11 -80 yellow_stained_glass replace #theme_blocks
 execute at @s[tag=0n8] run data merge entity @e[limit=1,tag=D_chabadu] {Color:4}
