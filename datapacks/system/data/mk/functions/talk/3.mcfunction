@@ -209,34 +209,25 @@ execute as @e[tag=n,scores={0=608}] at @s unless entity @e[tag=04p] if entity @e
 execute as @e[tag=n,scores={0=612}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with yo","bold":true}'}
 execute as @e[tag=n,scores={0=614}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you","bold":true}'}
 execute as @e[tag=n,scores={0=616}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a","bold":true}'}
-execute as @e[tag=n,scores={0=618}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an","bold":true}'}
-execute as @e[tag=n,scores={0=620}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an e","bold":true}'}
-execute as @e[tag=n,scores={0=622}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an ex","bold":true}'}
-execute as @e[tag=n,scores={0=624}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an ext","bold":true}'}
-execute as @e[tag=n,scores={0=626}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extr","bold":true}'}
-execute as @e[tag=n,scores={0=628}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extra","bold":true}'}
-execute as @e[tag=n,scores={0=630}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extrac","bold":true}'}
-execute as @e[tag=n,scores={0=632}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract","bold":true}'}
-execute as @e[tag=n,scores={0=634}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract w","bold":true}'}
-execute as @e[tag=n,scores={0=636}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract wr","bold":true}'}
-execute as @e[tag=n,scores={0=638}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract wri","bold":true}'}
-execute as @e[tag=n,scores={0=640}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract writ","bold":true}'}
-execute as @e[tag=n,scores={0=642}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract writt","bold":true}'}
-execute as @e[tag=n,scores={0=644}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract writte","bold":true}'}
-execute as @e[tag=n,scores={0=646}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract written","bold":true}'}
-execute as @e[tag=n,scores={0=648}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract written b","bold":true}'}
-execute as @e[tag=n,scores={0=650}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract written by","bold":true}'}
-execute as @e[tag=n,scores={0=652}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract written by m","bold":true}'}
-execute as @e[tag=n,scores={0=654}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract written by my","bold":true}'}
-execute as @e[tag=n,scores={0=656}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract written by my a","bold":true}'}
-execute as @e[tag=n,scores={0=658}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract written by my an","bold":true}'}
-execute as @e[tag=n,scores={0=660}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract written by my anc","bold":true}'}
-execute as @e[tag=n,scores={0=662}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract written by my ance","bold":true}'}
-execute as @e[tag=n,scores={0=664}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract written by my ances","bold":true}'}
-execute as @e[tag=n,scores={0=666}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract written by my ancest","bold":true}'}
-execute as @e[tag=n,scores={0=668}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract written by my ancesto","bold":true}'}
-execute as @e[tag=n,scores={0=670}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract written by my ancestor","bold":true}'}
-execute as @e[tag=n,scores={0=672}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you an extract written by my ancestors:","bold":true}'}
+execute as @e[tag=n,scores={0=618}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a d","bold":true}'}
+execute as @e[tag=n,scores={0=620}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a de","bold":true}'}
+execute as @e[tag=n,scores={0=622}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dea","bold":true}'}
+execute as @e[tag=n,scores={0=624}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear","bold":true}'}
+execute as @e[tag=n,scores={0=626}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear qu","bold":true}'}
+execute as @e[tag=n,scores={0=628}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear quo","bold":true}'}
+execute as @e[tag=n,scores={0=630}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear quot","bold":true}'}
+execute as @e[tag=n,scores={0=632}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear quote","bold":true}'}
+execute as @e[tag=n,scores={0=634}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear quote f","bold":true}'}
+execute as @e[tag=n,scores={0=636}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear quote fr","bold":true}'}
+execute as @e[tag=n,scores={0=638}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear quote fro","bold":true}'}
+execute as @e[tag=n,scores={0=640}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear quote from","bold":true}'}
+execute as @e[tag=n,scores={0=642}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear quote from m","bold":true}'}
+execute as @e[tag=n,scores={0=644}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear quote from my","bold":true}'}
+execute as @e[tag=n,scores={0=646}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear quote from my p","bold":true}'}
+execute as @e[tag=n,scores={0=648}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear quote from my po","bold":true}'}
+execute as @e[tag=n,scores={0=650}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear quote from my poe","bold":true}'}
+execute as @e[tag=n,scores={0=652}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear quote from my poem","bold":true}'}
+execute as @e[tag=n,scores={0=654}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run data merge entity @s {CustomName:'{"text":"let me share with you a dear quote from my poem:","bold":true}'}
 
 execute as @e[tag=n,scores={0=576}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run particle end_rod -182 4.5 -8 0.3 0.3 0.3 0.03 599 force @a[tag=!N0]
 execute as @e[tag=n,scores={0=579}] at @s unless entity @e[tag=04p] if entity @e[tag=02p] run summon armor_stand -182 4 -8 {Tags:[p0ly_chat3],Invisible:1,Marker:1,NoGravity:1,Invulnerable:1,NoBasePlate:1,Passengers:[{Count:1,id:falling_block,Tags:[p0ly_chat3],NoGravity:1,DropItem:0,Time:-10000000,BlockState:{Properties:{has_book:true,facing:west},Name:"minecraft:lectern"}}]}

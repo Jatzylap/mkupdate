@@ -306,7 +306,7 @@ execute as @a[tag=8,scores={0=25..28}] at @s run title @s subtitle ["",{"text":"
 #OPTIFINE
 execute as @r[tag=P0ft_pre,scores={lobby=1..}] at @s run function mk:reset/optifine
 execute as @r[tag=P0ft_pre,tag=!st0red] at @s unless entity @s[x=-115,y=39,z=66,dx=3,dy=3,dz=15] run function mk:store
-execute as @r[tag=P0ft_pre] at @s unless entity @s[x=-115,y=39,z=66,dx=3,dy=3,dz=15] run tellraw @s ["",{"text":"\n\nM","color":"green","bold":true},{"text":"K","color":"aqua","bold":true},{"text":">","color":"light_purple"},{"text":" This "},{"text":"Optifine Test","color":"yellow","bold":true},{"text":" certifies that you have installed an "},{"text":"OptiFine version","color":"yellow"},{"text":" and that your device supports it."},{"text":"\n Before you begin the Test:","color":"gold"},{"text":" escape to the Game Menu,","bold":true},{"text":"\n Go to:","color":"aqua"},{"text":" Options < Video Settings < Dynamic Lights","color":"yellow","bold":true},{"text":" and ","color":"gold"},{"text":"enable ","color":"green","bold":true},{"text":"it (","color":"gold"},{"text":"to Fast or above","color":"yellow"},{"text":")\n\n","color":"gold"}]
+execute as @r[tag=P0ft_pre] at @s unless entity @s[x=-115,y=39,z=66,dx=3,dy=3,dz=15] run tellraw @s ["",{"text":"\n\nM","color":"green","bold":true},{"text":"K","color":"aqua","bold":true},{"text":">","color":"light_purple"},{"text":" This "},{"text":"Optifine Test","color":"yellow"},{"text":" certifies that you have installed an "},{"text":"OptiFine version","color":"yellow"},{"text":" on your device and that this supports it."},{"text":"\n Before you begin the Test:"},{"text":" Escape to the Game Menu,","color":"gold"},{"text":"\n Go to:"},{"text":" Options","color":"gold"},{"text":" >","color":"aqua"},{"text":" Video Settings","color":"gold"},{"text":" and "},{"text":"enable ","color":"green","bold":true},{"text":"Dynamic Lights (","color":"gold"},{"text":"Fast or above","color":"yellow"},{"text":")\n\n","color":"gold"}]
 execute as @a[tag=P0ft_pre] at @s unless entity @s[x=-115,y=39,z=66,dx=3,dy=3,dz=15] run give @s torch
 execute as @r[tag=P0ft_pre] at @s unless entity @s[x=-115,y=39,z=66,dx=3,dy=3,dz=15] run tp -113 42 81
 execute as @a[tag=P0ft_pre,tag=!tst1] at @s if block -113 41 78 stone_button[powered=true] run function mk:lobby/pass
@@ -314,38 +314,38 @@ execute as @a[tag=P0ft_pre] at @s if block ~ ~ ~ light_blue_carpet run function 
 execute as @a[tag=P0ft_pre,scores={lobby=1..}] at @s run function mk:reset/optifine
 execute as @a[tag=P0ft_pre,scores={2=1..}] at @s run function mk:reset/optifine
 
-execute if block -116 42 76 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -116 42 74 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -116 42 72 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -116 41 75 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -116 41 73 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -116 40 76 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -116 40 74 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -116 40 72 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -110 42 72 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -110 42 74 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -110 42 76 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -110 41 73 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -110 41 75 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -110 40 72 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -110 40 74 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -110 40 76 spruce_button[powered=true] run tag @a[tag=P0ft_pre] add P1
-execute if block -116 42 76 #buttons[powered=true] unless block -116 42 76 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
-execute if block -116 42 74 #buttons[powered=true] unless block -116 42 74 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
-execute if block -116 42 72 #buttons[powered=true] unless block -116 42 72 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
-execute if block -116 41 75 #buttons[powered=true] unless block -116 41 75 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
-execute if block -116 41 73 #buttons[powered=true] unless block -116 41 73 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
-execute if block -116 40 76 #buttons[powered=true] unless block -116 40 76 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
-execute if block -116 40 74 #buttons[powered=true] unless block -116 40 74 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
-execute if block -116 40 72 #buttons[powered=true] unless block -116 40 72 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
-execute if block -116 42 72 #buttons[powered=true] unless block -110 42 72 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
-execute if block -116 42 74 #buttons[powered=true] unless block -110 42 74 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
-execute if block -116 42 76 #buttons[powered=true] unless block -110 42 76 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
-execute if block -116 41 73 #buttons[powered=true] unless block -110 41 73 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
-execute if block -116 41 75 #buttons[powered=true] unless block -110 41 75 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
-execute if block -116 40 72 #buttons[powered=true] unless block -110 40 72 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
-execute if block -116 40 74 #buttons[powered=true] unless block -110 40 74 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
-execute if block -116 40 76 #buttons[powered=true] unless block -110 40 76 spruce_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 42 76 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -116 42 74 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -116 42 72 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -116 41 75 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -116 41 73 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -116 40 76 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -116 40 74 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -116 40 72 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -110 42 72 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -110 42 74 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -110 42 76 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -110 41 73 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -110 41 75 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -110 40 72 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -110 40 74 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -110 40 76 acacia_button[powered=true] run tag @a[tag=P0ft_pre] add P1
+execute if block -116 42 76 #buttons[powered=true] unless block -116 42 76 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 42 74 #buttons[powered=true] unless block -116 42 74 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 42 72 #buttons[powered=true] unless block -116 42 72 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 41 75 #buttons[powered=true] unless block -116 41 75 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 41 73 #buttons[powered=true] unless block -116 41 73 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 40 76 #buttons[powered=true] unless block -116 40 76 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 40 74 #buttons[powered=true] unless block -116 40 74 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 40 72 #buttons[powered=true] unless block -116 40 72 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 42 72 #buttons[powered=true] unless block -110 42 72 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 42 74 #buttons[powered=true] unless block -110 42 74 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 42 76 #buttons[powered=true] unless block -110 42 76 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 41 73 #buttons[powered=true] unless block -110 41 73 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 41 75 #buttons[powered=true] unless block -110 41 75 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 40 72 #buttons[powered=true] unless block -110 40 72 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 40 74 #buttons[powered=true] unless block -110 40 74 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
+execute if block -116 40 76 #buttons[powered=true] unless block -110 40 76 acacia_button as @a[tag=P0ft_pre,tag=!tst2] at @s run function mk:lobby/pass
 
 #LIBRARY
 execute as @p[team=!,tag=00p,x=-184,y=3,z=-8,distance=..5] at @s if entity @e[tag=0p,tag=!2p] run fill -194 6 -7 -194 7 -9 air destroy
