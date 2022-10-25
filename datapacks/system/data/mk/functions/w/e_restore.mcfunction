@@ -7,6 +7,6 @@ execute if score @s 5 = @e[limit=1,tag=st0rage,distance=..1] 5 if data entity @e
 execute if score @s 5 = @e[limit=1,tag=st0rage,distance=..1] 5 run tag @s remove st0red
 execute if score @s 5 = @e[limit=1,tag=st0rage,distance=..1] 5 run tag @s remove rest0re
 execute if score @s 5 matches 0 run tag @s remove st0red
-execute if score @s 5 = @e[limit=1,tag=st0rage,distance=..1] 5 as @e[limit=1,tag=st0rage,distance=..1] at @s run kill @s
+execute if score @s 5 = @e[limit=1,tag=st0rage,tag=st0re,distance=..1] 5 as @e[limit=1,tag=st0rage,tag=st0re,distance=..1] at @s run kill @s
 execute as @e[limit=1,tag=st0rage,distance=..1] at @s unless score @s 5 matches ..0 unless score @s 5 matches 0.. run kill @s
 execute in overworld run data merge block -313 9 -8 {Items:{}}

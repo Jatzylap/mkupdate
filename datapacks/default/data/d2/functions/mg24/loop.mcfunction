@@ -4,12 +4,12 @@ execute as @a[tag=SPmg24] at @s unless entity @s[x=784,y=2,z=-3,dx=155,dy=30,dz=
 team leave @a[scores={mg24=1..},tag=MMplayers,tag=SPmg24]
 tag @a[scores={mg24=1..},tag=SPmg24] remove MMplayers
 
-execute as @r[scores={mg24=1..},tag=!st0red] at @s run function mk:store
-tag @e[type=!player,type=!item,x=784,y=2,z=-3,dx=155,dy=30,dz=127] add mg24
+execute as @r[scores={mg24=1..},tag=MMplayers,tag=!st0red] at @s run function mk:store
+tag @e[type=!player,type=!item,tag=!st0rage,x=784,y=2,z=-3,dx=155,dy=30,dz=127] add mg24
 execute as @a[scores={mg24=1..,lobby=1..}] at @s run tag @s remove MMplayers
 execute as @a[scores={mg24=1..,lobby=1..}] at @s run tag @s remove SPmg24
 execute as @a[scores={mg24=1..,lobby=1..}] at @s run clear @s
-execute as @a[scores={mg24=1..,lobby=1..},tag=st0red] at @s run function mk:restore
+execute as @a[scores={mg24=1..,lobby=1..},tag=st0red] at @s run function mk:exit
 execute as @a[scores={mg24=1..,lobby=1..}] at @s run scoreboard players reset @s mg24
 execute as @a[scores={mg24=1..,2=1..},tag=st0red] at @s run function mk:exit
 execute as @a[scores={mg24=1..,2=1..},tag=st0red] at @s run scoreboard players reset @s mg24
@@ -34,6 +34,8 @@ execute as @e[limit=1,name="M@K",scores={mg24.3=4800}] at @s run tellraw @a[scor
 scoreboard players add @e[name="M@K",limit=1,scores={mg24.8=0..}] mg24.8 1
 
 #Main
+execute store result score #mg24-green mg24.7 run scoreboard players get @a[limit=1,team=mg24-green,tag=MMplayers] mg24.7
+execute store result score #mg24-pink mg24.7 run scoreboard players get @a[limit=1,team=mg24-pink,tag=MMplayers] mg24.7
 execute if score @e[name="M@K",limit=1] mg24.3 matches 190 run fill 798 3 63 798 3 57 air
 execute if score @e[name="M@K",limit=1] mg24.3 matches 200 run fill 798 4 63 798 4 57 air
 execute if score @e[name="M@K",limit=1] mg24.3 matches 210 run fill 798 5 63 798 5 57 air
@@ -55,7 +57,7 @@ execute if score @e[name="M@K",limit=1] mg24.3 matches 210 run playsound block.i
 execute if score @e[name="M@K",limit=1] mg24.3 matches 220 run playsound block.iron_door.close master @a[scores={mg24=1..}] 925 6 57 .8 2
 execute if score @e[name="M@K",limit=1] mg24.3 matches 230 run playsound block.iron_door.close master @a[scores={mg24=1..}] 925 7 57 .8 2
 execute if score @e[name="M@K",limit=1] mg24.3 matches 240 run function d2:mg24/post-init
-stopsound @a[scores={mg24=1..}] * ambient.nether_wastes.loop
+stopsound @a[scores={mg24=1..}] * ambient.nether_wastes.additions
 
 #easter eggs
 execute unless block 894 5 71 target[power=13] unless block 894 5 71 target[power=14] unless block 894 5 71 target[power=15] run setblock 894 6 71 carved_pumpkin[facing=south]
@@ -190,4 +192,4 @@ execute as @e[name="M@K",limit=1] at @s if score @s mg24.8 matches 21 run title 
 execute as @e[name="M@K",limit=1] at @s if score @s mg24.8 matches 23 run title @a[scores={mg24=1..}] title ["",{"text":"- DR","color":"gold","bold":true},{"text":"AW","color":"green"},{"text":" -","color":"gold"}]
 execute as @e[name="M@K",limit=1] at @s if score @s mg24.8 matches 25 run title @a[scores={mg24=1..}] title ["",{"text":"- DRA","color":"gold","bold":true},{"text":"W","color":"green"},{"text":" -","color":"gold"}]
 execute as @e[name="M@K",limit=1] at @s if score @s mg24.8 matches 26 run title @a[scores={mg24=1..}] title ["",{"text":"- DRAW -","color":"gold","bold":true}]
-execute as @e[name="M@K",limit=1] at @s if score @s mg24.8 matches 20 run title @a[scores={mg24=1..}] subtitle ["",{"score":{"name":"@r[team=mg24-pink,tag=MMplayers]","objective":"mg24.7"},"color":"light_purple","bold":true},{"text":" - ","color":"gold","bold":true},{"score":{"name":"@r[team=mg24-green,tag=MMplayers]","objective":"mg24.7"},"color":"green","bold":true}]
+execute as @e[name="M@K",limit=1] at @s if score @s mg24.8 matches 20 run title @a[scores={mg24=1..}] subtitle ["",{"score":{"name":"#mg24-pink","objective":"mg24.7"},"color":"light_purple","bold":true},{"text":" = ","color":"gold","bold":true},{"score":{"name":"#mg24-green","objective":"mg24.7"},"color":"green","bold":true}]

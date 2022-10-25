@@ -62,6 +62,6 @@ execute if score @s 5 = @e[limit=1,tag=st0rage,sort=nearest,tag=!st0red] 5 as @e
 execute if score @s 5 = @e[limit=1,tag=st0rage,sort=nearest,tag=!st0red] 5 as @e[limit=1,tag=st0rage,sort=nearest,tag=!st0red] at @s if data entity @s ArmorItems[1].tag.BlockEntityTag.Items[12].Slot run data modify entity @s ArmorItems[1].tag.BlockEntityTag.Items[12].Slot set value 12b
 execute if score @s 5 = @e[limit=1,tag=st0rage,sort=nearest,tag=!st0red] 5 as @e[limit=1,tag=st0rage,sort=nearest,tag=!st0red] at @s if data entity @s ArmorItems[1].tag.BlockEntityTag.Items[13].Slot run data modify entity @s ArmorItems[1].tag.BlockEntityTag.Items[13].Slot set value 13b
 clear @s
-execute in overworld run tp @e[limit=1,tag=st0rage,sort=nearest,tag=!st0red] -313 9 -8
-tag @e[limit=1,tag=st0rage,sort=nearest,tag=!st0red] add st0red
+execute as @e[tag=st0rage,tag=!st0red] at @s in overworld run tp @s -313 9 -8
+tag @e[tag=st0rage,tag=!st0red] add st0red
 tag @s add st0red

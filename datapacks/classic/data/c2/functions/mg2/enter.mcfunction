@@ -16,7 +16,7 @@ execute at @s[tag=!T0] store result score #mg2-blue mg2.1 if entity @a[scores={m
 execute at @s[tag=!T0] store result score #mg2-yellow mg2.1 if entity @a[scores={mg2=1..},tag=mg2-ran3]
 title @s[tag=!T0] clear
 title @s[tag=!T0] reset
-title @s[tag=PG] title ["",{"text":"Bed","color":"red","bold":true},{"text":" / ","color":"gold","bold":true},{"text":"Egg","color":"aqua","bold":true},{"text":" Wars","color":"gold","bold":true}]
+title @s[tag=PG] title ["",{"text":"Bed","color":"red","bold":true},{"text":" / ","color":"gold","bold":true},{"text":"Egg","color":"aqua","bold":true},{"text":"Wars","color":"gold","bold":true}]
 title @s[tag=PG,tag=SPmg2] title ["",{"text":"Spectating","color":"gray","bold":true}]
 execute as @s[tag=PG] at @s unless entity @e[name="M@K",limit=1,tag=PGtie] run title @a[tag=PG] subtitle ["",{"text":"-","color":"yellow","bold":true},{"text":" Round ","color":"white","bold":true},{"score":{"name":"@e[limit=1,name=\"M@K\"]","objective":"pg1.6"},"color":"aqua","bold":true},{"text":"-","color":"yellow","bold":true}]
 execute as @s[tag=PG] at @s if entity @e[name="M@K",limit=1,tag=PGtie] run title @a[tag=PG] subtitle ["",{"text":"-","color":"yellow","bold":true},{"text":" Tie ","color":"yellow","bold":true},{"text":"Round ","color":"white","bold":true},{"text":"-","color":"yellow","bold":true}]

@@ -352,8 +352,8 @@ execute as @p[team=!,tag=00p,x=-184,y=3,z=-8,distance=..5] at @s if entity @e[ta
 execute as @p[team=!,tag=00p,x=-184,y=3,z=-8,distance=..5] at @s if entity @e[tag=0p,tag=!2p] if block -193 9 -8 stone_brick_stairs run summon falling_block -193 9 -8 {DropItem:0,Time:1,BlockState:{Name:"stone_brick_stairs",Properties:{facing:west}}}
 execute as @p[team=!,tag=00p,x=-184,y=3,z=-8,distance=..5] at @s if entity @e[tag=0p,tag=!2p] run setblock -193 9 -8 air
 execute as @p[team=!,tag=00p,x=-184,y=3,z=-8,distance=..5] at @s if entity @e[tag=0p,tag=!2p] unless entity @e[name="M@K",tag=mode2] run advancement grant @a only mk:discover_library
-execute as @a[team=!,tag=!00p,x=-184,y=3,z=-8,distance=..5] at @s if entity @e[tag=!0p,tag=!2p] unless entity @a[advancements={mk:finish_tutorial=true}] run title @s actionbar ["",{"text":"Waiting for","color":"yellow","bold":true},{"text":" Player 1","color":"gold","bold":true},{"text":"...","color":"yellow","bold":true}]
-execute if entity @p[team=!,x=-184,y=3,z=-8,distance=..5] run tag @e[tag=0p] add 2p
+execute as @a[team=!,tag=!00p,x=-184,y=3,z=-8,distance=..5] at @s if entity @e[tag=0p,tag=!2p] unless entity @a[advancements={mk:finish_tutorial=true}] run title @s actionbar ["",{"text":"Waiting for","color":"yellow","bold":true},{"text":" Player 1","color":"gold","bold":true},{"text":"...","color":"yellow","bold":true}]
+execute if entity @p[team=!,tag=00p,x=-184,y=3,z=-8,distance=..5] run tag @e[tag=0p] add 2p
 tag @e[tag=01p,tag=1p,tag=2p] add 3p
 execute if entity @e[tag=0p,tag=3p] run forceload add -233 -142
 execute if entity @e[tag=0p,tag=3p] run fill -228 15 -142 -240 30 -142 air replace iron_bars

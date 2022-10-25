@@ -1,3 +1,4 @@
+tag @s add l3ave
 tp @s[tag=!st0red,tag=D_B] -90 3 -97
 tp @s[tag=!st0red,tag=D_C] -51 5 47
 tp @s[tag=!st0red,tag=D_P] -42 6 20

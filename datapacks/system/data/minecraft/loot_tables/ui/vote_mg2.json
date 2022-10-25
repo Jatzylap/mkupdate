@@ -16,7 +16,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": [
-                {"text":"","extra":[{"text":"Sky","bold":true},{"text":" - ","color":"gold","bold":true},{"text":"Team","color":"aqua","bold":true},{"text":" Games","color":"gold","bold":true}],"italic":false}
+                {"text":"","extra":[{"text":"Bed","color":"red","bold":true},{"text":" / ","color":"gold","bold":true},{"text":"Egg","color":"aqua","bold":true},{"text":"Wars","color":"gold","bold":true}],"italic":false}
               ]
             },
             {

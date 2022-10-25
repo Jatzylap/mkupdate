@@ -15,11 +15,11 @@ execute in sister_dimension as @e[tag=mg26,tag=chest] at @s run function d4:mg26
 execute unless entity @a[scores={mg11=1..}] run data merge block -66 8 -94 {Text3:''}
 execute unless entity @a[scores={mg15=1..}] run data merge block -150 5 -89 {Text3:''}
 execute unless entity @a[scores={mg16=1..}] run data merge block -90 4 -93 {Text3:''}
-execute unless entity @a[scores={mg24=1..}] run data merge block -163 5 -89 {Text3:''}
+execute unless entity @a[scores={mg24=1..}] run data merge block -90 3 -93 {Text3:''}
 execute as @p[scores={mg11=1..,c=1..}] unless data block -66 8 -94 {Text3:'{"obfuscated":true,"color":"gold","clickEvent":{"action":"run_command","value":"tag @s[tag=!T0] add SPmg11"},"text":"@"}'} run data merge block -66 8 -94 {Text3:'{"extra":[{"text":" playing...","color":"gold"}],"score":{"name":"@p[scores={mg11=1..,c=1..}]","objective":"c"},"color":"gold"}'}
 execute as @p[scores={mg15=1..,c=1..}] run data merge block -150 5 -89 {Text3:'{"extra":[{"text":" playing...","color":"gold"}],"score":{"name":"@p[scores={mg15=1..,c=1..}]","objective":"c"},"color":"gold"}'}
 execute as @p[scores={mg16=1..,c=1..}] unless data block -90 4 -93 {Text3:'{"obfuscated":true,"color":"gold","clickEvent":{"action":"run_command","value":"tag @s[tag=!T0] add SPmg16"},"text":"@"}'} run data merge block -90 4 -93 {Text3:'{"extra":[{"text":" playing...","color":"gold"}],"score":{"name":"@p[scores={mg16=1..,c=1..}]","objective":"c"},"color":"gold"}'}
-execute as @p[scores={mg24=1..,c=1..}] unless data block -163 5 -89 {Text3:'{"obfuscated":true,"color":"gold","clickEvent":{"action":"run_command","value":"tag @s[tag=!T0] add SPmg24"},"text":"@"}'} run data merge block -163 5 -89 {Text3:'{"extra":[{"text":" playing...","color":"gold"}],"score":{"name":"@p[scores={mg24=1..,c=1..}]","objective":"c"},"color":"gold"}'}
+execute as @p[scores={mg24=1..,c=1..}] unless data block -90 3 -93 {Text3:'{"obfuscated":true,"color":"gold","clickEvent":{"action":"run_command","value":"tag @s[tag=!T0] add SPmg24"},"text":"@"}'} run data merge block -90 3 -93 {Text3:'{"extra":[{"text":" playing...","color":"gold"}],"score":{"name":"@p[scores={mg24=1..,c=1..}]","objective":"c"},"color":"gold"}'}
 
 #Minigames
 #c

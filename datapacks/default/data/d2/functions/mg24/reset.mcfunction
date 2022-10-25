@@ -34,6 +34,7 @@ team remove mg24-pink
 team remove mg24-green
 stopsound @s * ambient.nether_wastes.loop
 stopsound @s * ambient.nether_wastes.mood
+stopsound @s * ambient.nether_wastes.additions
 execute if entity @a[tag=PG,scores={mg24=1..}] run function library:event/schedule/next
 scoreboard players reset * mg24
 

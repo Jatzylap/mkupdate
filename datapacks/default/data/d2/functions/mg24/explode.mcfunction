@@ -19,4 +19,6 @@ execute at @s[tag=is_pink] as @a[scores={mg24=1..},tag=MMplayers,team=mg24-green
 execute at @s[tag=is_green] as @a[scores={mg24=1..},tag=MMplayers,team=mg24-pink,distance=..7] run scoreboard players add @a[team=mg24-green,tag=MMplayers] mg24.7 1
 execute at @s[tag=is_pink] run kill @a[scores={mg24=1..},tag=MMplayers,team=mg24-green,distance=..7]
 execute at @s[tag=is_green] run kill @a[scores={mg24=1..},tag=MMplayers,team=mg24-pink,distance=..7]
+execute at @s[tag=is_pink,tag=mg24_green] unless block 785 4 60 target[power=0] run scoreboard players set @e[name="M@K",limit=1] mg24.2 0
+execute at @s[tag=is_green,tag=mg24_pink] unless block 785 4 60 target[power=0] run scoreboard players set @e[name="M@K",limit=1] mg24.1 0
 kill @s

@@ -1,3 +1,4 @@
+execute as @a[scores={mg16=1..}] at @s run function clear:chat
 clear @a[scores={mg16=1..}]
 effect clear @a[scores={mg16=1..}]
 effect give @a[scores={mg16=1..}] saturation 1 255 true
@@ -10,6 +11,8 @@ scoreboard players reset * mg16.2_2
 scoreboard players reset * mg16.3
 gamemode adventure @a[scores={mg16=1..}]
 tag @a remove SPmg16
+tag @a remove mg16_near0
+tag @a remove mg16_near1
 tag @a remove GWweak
 tag @a remove GWdrop
 tag @a remove GWdead
