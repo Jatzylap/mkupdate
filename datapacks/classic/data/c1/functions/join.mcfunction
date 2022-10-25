@@ -1,3 +1,4 @@
+playsound entity.item.pickup master @s ~ ~ ~ 10000
 tp @s[tag=C_B] -18 4 -25
 tp @s[tag=C_C] -51 5 35
 tp @s[tag=C_P] -77 8 85

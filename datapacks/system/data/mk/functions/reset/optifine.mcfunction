@@ -36,10 +36,11 @@ data merge block -108 40 68 {Command:""}
 data merge block -108 42 70 {Command:""}
 data merge block -108 40 70 {Command:""}
 execute as @s[tag=tst1,tag=tst2,tag=P1,tag=P2] at @s run title @s title ["",{"text":"You passed!","color":"dark_aqua","bold":true}]
-title @s[tag=tst1,tag=tst2,tag=!P2] title ["",{"text":"Failed!","color":"red","bold":true}]
-execute as @s[tag=tst1,tag=tst2,tag=P1,tag=P2] at @s run tellraw @a[tag=!m-g] ["\n",{"selector":"@s","bold":true},{"text":"has just passed the","bold":true},{"text":" OptiFine","color":"yellow","bold":true},{"text":" Test","color":"dark_aqua","bold":true},{"text":"!","bold":true}]
+execute as @s[tag=tst1,tag=tst2,tag=!P2] at @s run title @s title ["",{"text":"You failed!","color":"red","bold":true}]
 tag @a[tag=tst1,tag=tst2,tag=P1,tag=P2] add P0ft
 execute unless score @s lobby matches 1.. run function mk:exit
+tellraw @s[tag=tst1,tag=tst2,tag=!P2] ["",{"text":"\n\nM","color":"green","bold":true},{"text":"K","color":"aqua","bold":true},{"text":">","color":"light_purple"},{"text":" You failed the"},{"text":" Optifine Test","color":"yellow"},{"text":"!\n\n"}]
+execute as @s[tag=tst1,tag=tst2,tag=P1,tag=P2] at @s run tellraw @a[tag=!m-g] ["",{"text":"\nM","color":"green","bold":true},{"text":"K","color":"aqua","bold":true},{"text":"> ","color":"light_purple"},{"selector":"@s","bold":true},{"text":"has just passed the","bold":true},{"text":" OptiFine","color":"yellow","bold":true},{"text":" Test","color":"dark_aqua","bold":true},{"text":"!\n","bold":true}]
 tag @a remove P1
 tag @a remove P2
 tag @a remove tst1
