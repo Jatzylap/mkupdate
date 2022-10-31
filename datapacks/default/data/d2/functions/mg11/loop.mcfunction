@@ -9,6 +9,8 @@ clear @a[tag=SPmg11] #lc_items{LC:1b}
 effect give @a[scores={mg11=1..},tag=SPmg11] invisibility 1 9 true
 
 #Main
+clear @a[scores={mg11=1..},tag=LCplayers] #minecraft:lc_items{LCevent:1b}
+execute unless entity @a[scores={mg11=1..},tag=LCplayers] run kill @e[type=item,nbt={Item:{tag:{LCevent:1b}}}]
 execute as @e[type=armor_stand,tag=mg11,tag=LC] at @s if entity @a[scores={mg11=1..},distance=..6] unless block ~ ~ ~ chest run function d2:mg11/initiate
 execute as @e[type=armor_stand,tag=mg11,tag=LC] at @s unless block ~ ~ ~ chest unless entity @e[type=item,nbt={Item:{tag:{LC:1b,display:{Lore:["{\"text\":\"lucky:block\",\"color\":\"dark_gray\"}"]}}}},distance=..6] run kill @s
 execute as @a[scores={mg11=1..},tag=LCplayers,tag=!SPmg11,limit=1,x=-109,y=7,z=-393,dx=18,dy=5,dz=7] at @s unless entity @a[tag=LCwinner] run tag @s add LCwinner

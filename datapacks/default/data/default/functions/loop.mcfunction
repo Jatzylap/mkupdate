@@ -9,6 +9,7 @@ execute as @e[tag=h4,tag=mg12] at @s run tp @s 298 71.5 -287 180 0
 execute as @a[tag=mk.06,scores={interact=1..}] at @s run tp @s -316 0 12
 execute as @a[tag=mk.06,scores={interact=1..}] at @s run function clear:chat
 
+function d2:mg11/loop/pre
 execute in sister_dimension as @e[tag=mg26,tag=chest] at @s run function d4:mg26/pre-loop
 
 #Player count
