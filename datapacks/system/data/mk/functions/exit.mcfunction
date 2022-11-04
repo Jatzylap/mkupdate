@@ -34,11 +34,11 @@ team leave @s[tag=!l3ave,tag=!draw0c,tag=!draw0d,tag=!draw0l]
 execute at @s[tag=!l3ave,team=,tag=!D_,tag=!C_,tag=!L_,tag=!3xp] run trigger lobby
 execute at @s[tag=!l3ave,team=,tag=!D_,tag=!C_,tag=!L_,tag=3xp] run tag @s add L_
 execute in overworld run tp @s[tag=!l3ave,tag=C_] -60 4 -8 -90 -15
+execute in overworld run tp @s[tag=!l3ave,tag=D_] -113 4 -61 -180 -15
+execute in overworld run tp @s[tag=!l3ave,tag=L_] -167 4 -8 90 -15
 execute at @s[tag=P0ft] unless score @s lobby matches 1.. run particle large_smoke ~ ~1 ~ 1 1 1 1 3000 force @a[tag=P0ft,tag=!N0]
 execute at @s[tag=P0ft] unless score @s lobby matches 1.. run particle end_rod ~ ~1 ~ 1 1 1 1 1000 force @a[tag=P0ft,tag=!N0]
 execute at @s[tag=P0ft] unless score @s lobby matches 1.. run particle composter ~ ~1 ~ 1 1 1 1 100 force @a[tag=P0ft,tag=!N0]
-execute in overworld run tp @s[tag=!l3ave,tag=D_] -113 4 -61 -180 -15
-execute in overworld run tp @s[tag=!l3ave,tag=L_] -167 4 -8 90 -15
 scoreboard players reset @s[tag=m-g,nbt=!{SpawnForced:1b}] mgc
 tp @s[tag=m-g,nbt=!{SpawnForced:1b}] -113 13 -8
 spawnpoint @s[tag=!l3ave] -113 13 -8

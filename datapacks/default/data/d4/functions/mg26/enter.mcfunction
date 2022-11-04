@@ -6,6 +6,7 @@ execute at @s[tag=PG] if data block -163 5 -89 {Text3:'{"obfuscated":true,"color
 scoreboard players add @s[tag=!T0] mg26 1
 execute in sister_dimension run tp @s[scores={mg26=1..}] 15 2 -377 -90 0
 execute in sister_dimension run tp @s[tag=SPmg26] 21 8 -377
+execute in sister_dimension positioned 21 8 -377 unless entity @e[tag=mg26,tag=chest] run summon marker 21 3.875 -377 {Tags:[mg26,chest]}
 particle cloud 21 3 -377 1 1 1 0.1 3000 force @s[tag=P0ft,tag=!N0,scores={mg26=1..}]
 title @s[tag=!T0] clear
 title @s[tag=!T0] reset

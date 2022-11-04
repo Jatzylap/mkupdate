@@ -49,3 +49,9 @@ execute if score @e[name="M@K",limit=1] mg26.2 matches 6 as @e[tag=q1,tag=mg26] 
 execute if score @e[name="M@K",limit=1] mg26.2 matches 6 as @e[tag=q2,tag=mg26] at @s run data merge entity @s {CustomName:'{"bold":true,"text":"A powerful weapon"}'}
 execute if score @e[name="M@K",limit=1] mg26.2 matches 6 as @e[tag=q3,tag=mg26] at @s run data merge entity @s {CustomName:'{"bold":true,"text":"A vital space"}'}
 execute if score @e[name="M@K",limit=1] mg26.2 matches 6 as @e[tag=q4,tag=mg26] at @s run data merge entity @s {CustomName:'{"bold":true,"text":"A forsaken relic"}'}
+
+execute if score @e[name="M@K",limit=1] mg26.2 matches 7 run tag @e[tag=q2,tag=mg26] add correct
+execute if score @e[name="M@K",limit=1] mg26.2 matches 7 as @e[tag=q1,tag=mg26] at @s run data merge entity @s {CustomName:'{"bold":true,"text":"A decade"}'}
+execute if score @e[name="M@K",limit=1] mg26.2 matches 7 as @e[tag=q2,tag=mg26] at @s run data merge entity @s {CustomName:'{"bold":true,"text":"A century"}'}
+execute if score @e[name="M@K",limit=1] mg26.2 matches 7 as @e[tag=q3,tag=mg26] at @s run data merge entity @s {CustomName:'{"bold":true,"text":"A millennium"}'}
+execute if score @e[name="M@K",limit=1] mg26.2 matches 7 as @e[tag=q4,tag=mg26] at @s run data merge entity @s {CustomName:'{"bold":true,"text":"Since the age of genesis"}'}

@@ -19,7 +19,6 @@ tag @a remove mg26_win3
 tag @a remove TCplayers
 execute in overworld run spawnpoint @a[scores={mg26=1..}] -163 4 -93
 execute in sister_dimension run kill @e[type=!player,x=12,y=2,z=-386,dx=18,dy=18,dz=18]
-execute in sister_dimension unless entity @e[tag=mg26,tag=chest] run summon marker 21 3.875 -377 {Tags:[mg26,chest]}
 execute in sister_dimension run setblock 21 2 -377 chest[facing=west]
 execute in overworld run tp @a[scores={mg26=1..}] -163 4 -93
 tag @a remove SPmg26

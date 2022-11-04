@@ -206,7 +206,7 @@ execute at @s[tag=!T0,tag=!mgc_f0rbid,tag=!SPmgc] if block -308 16 69 birch_wall
 execute at @s[tag=!T0,tag=!mgc_f0rbid,tag=!SPmgc] if block -308 16 69 oak_wall_sign if entity @a[scores={mgc=-1..}] if entity @e[tag=3vent,tag=count] run function library:game/pre_gen
 execute at @s[tag=!T0,tag=!mgc_f0rbid,tag=!SPmgc] if block -308 16 69 birch_wall_sign if entity @a[scores={mgc=-1..}] unless entity @e[tag=3vent,tag=count] if score @p[scores={mgc=-1}] c matches 2.. run schedule function library:game/generate 1s
 execute at @s[tag=!T0,tag=!mgc_f0rbid,tag=!SPmgc] if block -308 16 69 oak_wall_sign if entity @a[scores={mgc=-1..}] unless entity @e[tag=3vent,tag=count] run schedule function library:game/generate 1s
-execute at @s[tag=PG,tag=mgc_f0rbid] run tellraw @s ["",{"text":"\nWell that sucks... Spectators aren\'t invited in this game!\n","color":"red"}]
+execute at @s[tag=PG,tag=mgc_f0rbid] run tellraw @s ["",{"text":"\nWell that sucks... Spectators aren\'t invited to this game!\n","color":"red"}]
 scoreboard players reset @a[tag=ed1t] c
 
 execute at @s[tag=T0] unless score @s pg1.1 = @e[limit=1,name="M@K"] pg1 run summon armor_stand -326 2 -13 {Tags:[PG,pre,mgc],Invisible:1,Small:1,Marker:1,NoBasePlate:1}

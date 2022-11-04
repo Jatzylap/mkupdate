@@ -2,8 +2,6 @@ setblock -299 15 72 warped_button
 tag @e[type=armor_stand,x=-356,y=-13,z=71,dx=19,dy=35,dz=16] remove 3vent
 tag @e[type=armor_stand,x=-356,y=-13,z=71,dx=19,dy=35,dz=16] remove focus
 
-execute unless entity @e[tag=3vent,x=-307,y=-10,z=55,dx=16,dy=23,dz=16] if block -299 13 63 red_stained_glass run tellraw @a[tag=ed1t] ["",{"text":"This structure file did not contain any event markers.","color":"red"}]
-
 #Selected
 execute as @e[tag=3vent,tag=sound,tag=target,tag=!mgc_r3s] at @s unless entity @a[scores={mgc=-1..}] unless data entity @s Passengers[0] run data merge entity @s {ShowArms:1}
 execute as @e[tag=3vent,tag=sound,tag=target,nbt={ShowArms:1b}] at @s unless entity @a[scores={mgc=-1..}] unless data entity @s Passengers[0] run summon armor_stand ~ ~ ~ {Tags:[3vent,sound,mgc_r3s],NoGravity:1,Marker:1,Invisible:1,Passengers:[{id:magma_cube,DeathLootTable:"",PersistenceRequired:1,Invulnerable:1,NoAI:1,Tags:[3vent,gl0w,mgc-marker],Team:mgc-marker}]}

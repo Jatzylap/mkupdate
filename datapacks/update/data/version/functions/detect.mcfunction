@@ -11,6 +11,7 @@ execute in overworld run setblock -320 3 -95 command_block[facing=up]{Command:"f
 execute in overworld run fill -318 2 -95 -318 3 -95 cobblestone
 execute in overworld run setblock -319 4 -95 repeater[facing=west,delay=2]
 execute in overworld run setblock -318 4 -95 repeating_command_block{Command:"function d2:mg11/loop"}
+execute in overworld run forceload add 968 1095 1015 1272
 
 # <new minigames>
 
